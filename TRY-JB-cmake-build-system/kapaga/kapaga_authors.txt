@@ -1,0 +1,47 @@
+Kapaga Authors
+==============
+
+Authors of the Kapaga Development Group in alphabetical order:
+
+Christopher Bolte
+Jens Breitbart
+Mario Diehl
+Dennis Keßler
+Björn Knafla
+Cyrus Massoumi
+Markus Matz
+Sebastian Schulz
+Johannes Spohr
+Heiko Waldschmidt
+
+
+Authors of the Kapaga Development Group involved with the MMORTS project in alphabetical order:
+
+Winter term 2006/2007
+---------------------
+Christopher Bolte
+Mario Diehl
+Dennis Keßler
+Björn Knafla
+Cyrus Massoumi
+Markus Matz
+Sebastian Schulz
+Johannes Spohr
+Heiko Waldschmidt
+
+
+
+Project fields
+--------------
+Christopher Bolte: MMORTS developer, network
+Jens Breitbart: Steering developer
+Mario Diehl: MMORTS developer, graphics
+Dennis Keßler: MMORT Sobserver and advisor, scripting language
+Björn Knafla: Steering project lead and supervisor, MMORTS project lead and supervisor
+Cyrus Massoumi: MMORTS developer, math library
+Markus Matz: MMORTS developer, AI, game logic
+Sebastian Schulz: MMORTS, project lead assistant , observer, developer, physics
+Johannes Spohr: MMORTS observer and advisor, scripting language
+Heiko Waldschmidt: MMORTS developer, scripting language, game logic
+
+
