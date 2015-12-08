@@ -1,0 +1,7 @@
+#nvcc -g -o pedestrian.cu_o -c pedestrian.cu -Xcompiler "-m32" -Xcompiler "" -I. -I/usr/local/cuda/include -DUNIX -O3 --use_fast_math
+#nvcc -g -o pedestrian_optimized.cu_o -c pedestrian_optimized.cu -Xcompiler "-m32" -Xcompiler "" -I. -I/usr/local/cuda/include -DUNIX -O3 --use_fast_math
+nvcc -g -o pedestrian_optimized_2.cu_o -c pedestrian_optimized_2.cu -Xcompiler "-m32" -Xcompiler "" -I. -I/usr/local/cuda/include -DUNIX -O3 --use_fast_math
+
+
+# -O0 --device-emulation  -Xcompiler "-fbounds-check -fstack-check -fmem-report"
+# -O3 --use_fast_math 

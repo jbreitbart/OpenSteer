@@ -1,0 +1,4279 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA = {
+		activeBuildStyle = 4A9504CCFFE6A4B311CA0CBA;
+		activeExecutable = 32F97647074B489D0023331B;
+		activeTarget = 8D1107260486CEB800E47090;
+		addToTargets = (
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 32F9765C074B48AB0023331B;
+		executables = (
+			32F97647074B489D0023331B,
+			3224E47708435BCC00C13D97,
+		);
+		expressions = (
+			"this->path_->length()",
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					788,
+					20,
+					61,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					233,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 139505239;
+			PBXPrepackagedSmartGroups_v2 = (
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					activationKey = OldTargetSmartGroup;
+					clz = PBXTargetSmartGroup;
+					description = "Displays all targets of the project.";
+					globalID = 1C37FABC04509CD000000102;
+					name = Targets;
+					preferences = {
+						image = Targets;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXTargetSmartGroup2;
+					description = "Displays all targets of the project as well as nested build phases.";
+					globalID = 1C37FBAC04509CD000000102;
+					name = Targets;
+					preferences = {
+						image = Targets;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXExecutablesSmartGroup;
+					description = "Displays all executables of the project.";
+					globalID = 1C37FAAC04509CD000000102;
+					name = Executables;
+					preferences = {
+						image = Executable;
+					};
+				},
+				{
+					" PBXTransientLocationAtTop " = bottom;
+					absolutePathToBundle = "";
+					clz = PBXErrorsWarningsSmartGroup;
+					description = "Displays files with errors or warnings.";
+					globalID = 1C08E77C0454961000C914BD;
+					name = "Errors and Warnings";
+					preferences = {
+						fnmatch = "";
+						image = WarningsErrors;
+						recursive = 1;
+						regex = "";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "Filters items in a given group (potentially recursively) based on matching the name with the regular expression of the filter.";
+					globalID = 1CC0EA4004350EF90044410B;
+					name = "Implementation Files";
+					preferences = {
+						canSave = 1;
+						fnmatch = "";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "?*\\.[mcMC]";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "This group displays Interface Builder NIB Files.";
+					globalID = 1CC0EA4004350EF90041110B;
+					name = "NIB Files";
+					preferences = {
+						canSave = 1;
+						fnmatch = "*.nib";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = no;
+					absolutePathToBundle = "";
+					clz = PBXFindSmartGroup;
+					description = "Displays Find Results.";
+					globalID = 1C37FABC05509CD000000102;
+					name = "Find Results";
+					preferences = {
+						image = spyglass;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = no;
+					absolutePathToBundle = "";
+					clz = PBXBookmarksSmartGroup;
+					description = "Displays Project Bookmarks.";
+					globalID = 1C37FABC05539CD112110102;
+					name = Bookmarks;
+					preferences = {
+						image = Bookmarks;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = XCSCMSmartGroup;
+					description = "Displays files with interesting SCM status.";
+					globalID = E2644B35053B69B200211256;
+					name = SCM;
+					preferences = {
+						image = PBXRepository;
+						isLeaf = 0;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXSymbolsSmartGroup;
+					description = "Displays all symbols for the project.";
+					globalID = 1C37FABC04509CD000100104;
+					name = "Project Symbols";
+					preferences = {
+						image = ProjectSymbols;
+						isLeaf = 1;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "Filters items in a given group (potentially recursively) based on matching the name with the regular expression of the filter.";
+					globalID = PBXTemplateMarker;
+					name = "Simple Filter SmartGroup";
+					preferences = {
+						canSave = 1;
+						fnmatch = "*.nib";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "Filters items in a given group (potentially recursively) based on matching the name with the regular expression of the filter.";
+					globalID = PBXTemplateMarker;
+					name = "Simple Regular Expression SmartGroup";
+					preferences = {
+						canSave = 1;
+						fnmatch = "";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "?*\\.[mcMC]";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					clz = XDDesignSmartGroup;
+					description = "Displays Xdesign models";
+					globalID = 2E4A936305E6979E00701470;
+					name = Design;
+					preferences = {
+						image = Design;
+						isLeaf = 0;
+					};
+				},
+			);
+			PBXWorkspaceStateSaveDate = 139505239;
+		};
+		perUserProjectItems = {
+			3223395608547AFF00E7F2F4 = 3223395608547AFF00E7F2F4;
+			3223395708547AFF00E7F2F4 = 3223395708547AFF00E7F2F4;
+			3223395808547AFF00E7F2F4 = 3223395808547AFF00E7F2F4;
+			32233961085593FA00E7F2F4 = 32233961085593FA00E7F2F4;
+			32233962085593FA00E7F2F4 = 32233962085593FA00E7F2F4;
+			32233963085593FA00E7F2F4 = 32233963085593FA00E7F2F4;
+			3224E43A08435ABA00C13D97 = 3224E43A08435ABA00C13D97;
+			3224E43B08435ABA00C13D97 = 3224E43B08435ABA00C13D97;
+			3224E43C08435ABA00C13D97 = 3224E43C08435ABA00C13D97;
+			3224E43D08435ABA00C13D97 = 3224E43D08435ABA00C13D97;
+			3224E44108435ABA00C13D97 = 3224E44108435ABA00C13D97;
+			3224E4B80844A5D600C13D97 = 3224E4B80844A5D600C13D97;
+			3224E4B90844A5D600C13D97 = 3224E4B90844A5D600C13D97;
+			3224E4BB0844A5D600C13D97 = 3224E4BB0844A5D600C13D97;
+			3224E4BC0844A5D600C13D97 = 3224E4BC0844A5D600C13D97;
+			3224E4C90844A5D600C13D97 = 3224E4C90844A5D600C13D97;
+			3224E4CB0844A5D600C13D97 = 3224E4CB0844A5D600C13D97;
+			3224E4CC0844A5D600C13D97 = 3224E4CC0844A5D600C13D97;
+			3224E4CD0844A5D600C13D97 = 3224E4CD0844A5D600C13D97;
+			3224E4D90844A5D600C13D97 = 3224E4D90844A5D600C13D97;
+			3224E50D0844B21000C13D97 = 3224E50D0844B21000C13D97;
+			3224E50F0844B21000C13D97 = 3224E50F0844B21000C13D97;
+			3224E5100844B21000C13D97 = 3224E5100844B21000C13D97;
+			3224E5150844B21000C13D97 = 3224E5150844B21000C13D97;
+			3224E5160844B21000C13D97 = 3224E5160844B21000C13D97;
+			3224E5190844B21000C13D97 = 3224E5190844B21000C13D97;
+			3224E51B0844B21000C13D97 = 3224E51B0844B21000C13D97;
+			3224E5270844B21000C13D97 = 3224E5270844B21000C13D97;
+			3224E5310844B21000C13D97 = 3224E5310844B21000C13D97;
+			3224E5320844B21000C13D97 = 3224E5320844B21000C13D97;
+			3224E5330844B21000C13D97 = 3224E5330844B21000C13D97;
+			3224E53C0844B21000C13D97 = 3224E53C0844B21000C13D97;
+			3224E5420844B21000C13D97 = 3224E5420844B21000C13D97;
+			3224E5440844B21000C13D97 = 3224E5440844B21000C13D97;
+			3224E5460844B21000C13D97 = 3224E5460844B21000C13D97;
+			3224E5680844B85300C13D97 = 3224E5680844B85300C13D97;
+			3224E5D90848A2F500C13D97 = 3224E5D90848A2F500C13D97;
+			3224E5DA0848A2F500C13D97 = 3224E5DA0848A2F500C13D97;
+			3224E5F30848A2F500C13D97 = 3224E5F30848A2F500C13D97;
+			3224E65B0849C15E00C13D97 = 3224E65B0849C15E00C13D97;
+			3224E6810849CE1300C13D97 = 3224E6810849CE1300C13D97;
+			3224E6880849CE1300C13D97 = 3224E6880849CE1300C13D97;
+			3224E6890849CE1300C13D97 = 3224E6890849CE1300C13D97;
+			3224E68D0849CE1300C13D97 = 3224E68D0849CE1300C13D97;
+			3224E68E0849CE1300C13D97 = 3224E68E0849CE1300C13D97;
+			3224E6DC084B971B00C13D97 = 3224E6DC084B971B00C13D97;
+			3224E70F084B9F2C00C13D97 = 3224E70F084B9F2C00C13D97;
+			3224E710084B9F2C00C13D97 = 3224E710084B9F2C00C13D97;
+			3224E76B084CCDF100C13D97 = 3224E76B084CCDF100C13D97;
+			3224E76C084CCDF100C13D97 = 3224E76C084CCDF100C13D97;
+			3224E770084CCDF100C13D97 = 3224E770084CCDF100C13D97;
+			3224E771084CCDF100C13D97 = 3224E771084CCDF100C13D97;
+			3224E772084CCDF100C13D97 = 3224E772084CCDF100C13D97;
+			3224E779084CCE5B00C13D97 = 3224E779084CCE5B00C13D97;
+			3230BE65084CD68000CBB0D9 = 3230BE65084CD68000CBB0D9;
+			3230BE67084CD68000CBB0D9 = 3230BE67084CD68000CBB0D9;
+			3230BEEA084CE8F300CBB0D9 = 3230BEEA084CE8F300CBB0D9;
+			3230BEEC084CE8F300CBB0D9 = 3230BEEC084CE8F300CBB0D9;
+			3230BF18084CE8F300CBB0D9 = 3230BF18084CE8F300CBB0D9;
+			3230BF1B084CE8F300CBB0D9 = 3230BF1B084CE8F300CBB0D9;
+			3230BF28084CE8F300CBB0D9 = 3230BF28084CE8F300CBB0D9;
+			3230BFC0084CF39800CBB0D9 = 3230BFC0084CF39800CBB0D9;
+			3230BFC2084CF39800CBB0D9 = 3230BFC2084CF39800CBB0D9;
+			3230BFC8084CF39800CBB0D9 = 3230BFC8084CF39800CBB0D9;
+			3230BFCB084CF39800CBB0D9 = 3230BFCB084CF39800CBB0D9;
+			3230BFEC084CF39800CBB0D9 = 3230BFEC084CF39800CBB0D9;
+			3230C053084DB63700CBB0D9 = 3230C053084DB63700CBB0D9;
+			3230C093084DB8D900CBB0D9 = 3230C093084DB8D900CBB0D9;
+			3230C094084DB8D900CBB0D9 = 3230C094084DB8D900CBB0D9;
+			3230C09F084DBA1B00CBB0D9 = 3230C09F084DBA1B00CBB0D9;
+			3230C0A0084DBA1B00CBB0D9 = 3230C0A0084DBA1B00CBB0D9;
+			3230C0A8084DBA1B00CBB0D9 = 3230C0A8084DBA1B00CBB0D9;
+			3230C0B5084DBAF500CBB0D9 = 3230C0B5084DBAF500CBB0D9;
+			3230C0ED084DBF9500CBB0D9 = 3230C0ED084DBF9500CBB0D9;
+			3230C0F0084DBF9500CBB0D9 = 3230C0F0084DBF9500CBB0D9;
+			3230C0F6084DBF9500CBB0D9 = 3230C0F6084DBF9500CBB0D9;
+			3230C11D084DC24A00CBB0D9 = 3230C11D084DC24A00CBB0D9;
+			3230C120084DC24A00CBB0D9 = 3230C120084DC24A00CBB0D9;
+			3230C122084DC24A00CBB0D9 = 3230C122084DC24A00CBB0D9;
+			3230C145084DDDD000CBB0D9 = 3230C145084DDDD000CBB0D9;
+			3230C149084DDDD000CBB0D9 = 3230C149084DDDD000CBB0D9;
+			3230C188084DECA500CBB0D9 = 3230C188084DECA500CBB0D9;
+			3230C18A084DECA500CBB0D9 = 3230C18A084DECA500CBB0D9;
+			3230C193084DECA500CBB0D9 = 3230C193084DECA500CBB0D9;
+			3230C197084DECA500CBB0D9 = 3230C197084DECA500CBB0D9;
+			3230C1B4084DEEB200CBB0D9 = 3230C1B4084DEEB200CBB0D9;
+			3230C1F0084E01AC00CBB0D9 = 3230C1F0084E01AC00CBB0D9;
+			3230C23E084E098F00CBB0D9 = 3230C23E084E098F00CBB0D9;
+			3230C23F084E098F00CBB0D9 = 3230C23F084E098F00CBB0D9;
+			3230C242084E098F00CBB0D9 = 3230C242084E098F00CBB0D9;
+			3230C244084E098F00CBB0D9 = 3230C244084E098F00CBB0D9;
+			3230C271084E0D9A00CBB0D9 = 3230C271084E0D9A00CBB0D9;
+			3230C35D084F268500CBB0D9 = 3230C35D084F268500CBB0D9;
+			3230C35F084F268500CBB0D9 = 3230C35F084F268500CBB0D9;
+			3230C360084F268500CBB0D9 = 3230C360084F268500CBB0D9;
+			3230C365084F268500CBB0D9 = 3230C365084F268500CBB0D9;
+			3230C372084F268600CBB0D9 = 3230C372084F268600CBB0D9;
+			3230C37C084F32DB00CBB0D9 = 3230C37C084F32DB00CBB0D9;
+			3230C37D084F32DB00CBB0D9 = 3230C37D084F32DB00CBB0D9;
+			3230C380084F32DB00CBB0D9 = 3230C380084F32DB00CBB0D9;
+			3230C381084F32DB00CBB0D9 = 3230C381084F32DB00CBB0D9;
+			3230C383084F32DB00CBB0D9 = 3230C383084F32DB00CBB0D9;
+			3230C384084F32DB00CBB0D9 = 3230C384084F32DB00CBB0D9;
+			3230C39E084F3BE100CBB0D9 = 3230C39E084F3BE100CBB0D9;
+			3230C3DF084F4ECE00CBB0D9 = 3230C3DF084F4ECE00CBB0D9;
+			3230C3E0084F4ECE00CBB0D9 = 3230C3E0084F4ECE00CBB0D9;
+			3230C3E1084F4ECE00CBB0D9 = 3230C3E1084F4ECE00CBB0D9;
+			3230C3E2084F4ECE00CBB0D9 = 3230C3E2084F4ECE00CBB0D9;
+			3230C3E3084F4ECE00CBB0D9 = 3230C3E3084F4ECE00CBB0D9;
+			3230C40D084F652100CBB0D9 = 3230C40D084F652100CBB0D9;
+			3230C40E084F652100CBB0D9 = 3230C40E084F652100CBB0D9;
+			3230C40F084F652100CBB0D9 = 3230C40F084F652100CBB0D9;
+			3230C410084F652100CBB0D9 = 3230C410084F652100CBB0D9;
+			3230C411084F652100CBB0D9 = 3230C411084F652100CBB0D9;
+			3230C414084F652100CBB0D9 = 3230C414084F652100CBB0D9;
+			3230C429084F6BA000CBB0D9 = 3230C429084F6BA000CBB0D9;
+			3230C42E084F6BA000CBB0D9 = 3230C42E084F6BA000CBB0D9;
+			3230C42F084F6BA000CBB0D9 = 3230C42F084F6BA000CBB0D9;
+			3230C433084F6BA000CBB0D9 = 3230C433084F6BA000CBB0D9;
+			3230C44E085052F700CBB0D9 = 3230C44E085052F700CBB0D9;
+			3230C450085052F700CBB0D9 = 3230C450085052F700CBB0D9;
+			3230C452085052F700CBB0D9 = 3230C452085052F700CBB0D9;
+			3230C453085052F700CBB0D9 = 3230C453085052F700CBB0D9;
+			3230C4650850646900CBB0D9 = 3230C4650850646900CBB0D9;
+			3230C4660850646900CBB0D9 = 3230C4660850646900CBB0D9;
+			3230C4AD0850918700CBB0D9 = 3230C4AD0850918700CBB0D9;
+			3230C4AE0850918700CBB0D9 = 3230C4AE0850918700CBB0D9;
+			3230C4B00850918700CBB0D9 = 3230C4B00850918700CBB0D9;
+			3230C4B10850918700CBB0D9 = 3230C4B10850918700CBB0D9;
+			3230C4B80850918700CBB0D9 = 3230C4B80850918700CBB0D9;
+			3230C4D50850970600CBB0D9 = 3230C4D50850970600CBB0D9;
+			3230C4E908509F6000CBB0D9 = 3230C4E908509F6000CBB0D9;
+			3230C4EB08509F6000CBB0D9 = 3230C4EB08509F6000CBB0D9;
+			3230C4F208509F6000CBB0D9 = 3230C4F208509F6000CBB0D9;
+			3230C4F308509F6000CBB0D9 = 3230C4F308509F6000CBB0D9;
+			3230C51F0850A5E600CBB0D9 = 3230C51F0850A5E600CBB0D9;
+			3230C5200850A5E600CBB0D9 = 3230C5200850A5E600CBB0D9;
+			3230C5210850A5E600CBB0D9 = 3230C5210850A5E600CBB0D9;
+			3230C5220850A5E600CBB0D9 = 3230C5220850A5E600CBB0D9;
+			3230C5230850A5E600CBB0D9 = 3230C5230850A5E600CBB0D9;
+			3230C5240850A5E600CBB0D9 = 3230C5240850A5E600CBB0D9;
+			3230C5250850A5E600CBB0D9 = 3230C5250850A5E600CBB0D9;
+			3230C5260850A5E600CBB0D9 = 3230C5260850A5E600CBB0D9;
+			3230C5300850A5E600CBB0D9 = 3230C5300850A5E600CBB0D9;
+			3230C5310850A5E600CBB0D9 = 3230C5310850A5E600CBB0D9;
+			3230C5490850A74C00CBB0D9 = 3230C5490850A74C00CBB0D9;
+			3230C54A0850A74C00CBB0D9 = 3230C54A0850A74C00CBB0D9;
+			3230C54B0850A74C00CBB0D9 = 3230C54B0850A74C00CBB0D9;
+			3230C54C0850A74C00CBB0D9 = 3230C54C0850A74C00CBB0D9;
+			3230C54D0850A74C00CBB0D9 = 3230C54D0850A74C00CBB0D9;
+			3230C54E0850A74C00CBB0D9 = 3230C54E0850A74C00CBB0D9;
+			3230C54F0850A74C00CBB0D9 = 3230C54F0850A74C00CBB0D9;
+			3230C5500850A74C00CBB0D9 = 3230C5500850A74C00CBB0D9;
+			3230C5510850A74C00CBB0D9 = 3230C5510850A74C00CBB0D9;
+			3230C5520850A74C00CBB0D9 = 3230C5520850A74C00CBB0D9;
+			3230C5640850A74C00CBB0D9 = 3230C5640850A74C00CBB0D9;
+			3230C56C0850A7B300CBB0D9 = 3230C56C0850A7B300CBB0D9;
+			32462D30083C80E900605D48 = 32462D30083C80E900605D48;
+			32462D34083C80E900605D48 = 32462D34083C80E900605D48;
+			3292F56B0826E49200336B07 = 3292F56B0826E49200336B07;
+			3292F56C0826E49200336B07 = 3292F56C0826E49200336B07;
+			3292F56D0826E49200336B07 = 3292F56D0826E49200336B07;
+			3292F5840828D05E00336B07 = 3292F5840828D05E00336B07;
+			3292F5850828D05E00336B07 = 3292F5850828D05E00336B07;
+			32ECEC78082F94FA00E5E444 = 32ECEC78082F94FA00E5E444;
+			32ECEC95082FC63500E5E444 = 32ECEC95082FC63500E5E444;
+			32ECEC96082FC63500E5E444 = 32ECEC96082FC63500E5E444;
+			32ECEC98082FC63500E5E444 = 32ECEC98082FC63500E5E444;
+			32ECEC9A082FC63500E5E444 = 32ECEC9A082FC63500E5E444;
+			32ECEC9D082FC63500E5E444 = 32ECEC9D082FC63500E5E444;
+			32ECECA1082FC63500E5E444 = 32ECECA1082FC63500E5E444;
+			32ECECA4082FC63500E5E444 = 32ECECA4082FC63500E5E444;
+			32ECECA5082FC63500E5E444 = 32ECECA5082FC63500E5E444;
+			32ECECA6082FC63500E5E444 = 32ECECA6082FC63500E5E444;
+			32ECECA7082FC63500E5E444 = 32ECECA7082FC63500E5E444;
+			32ECECA8082FC63500E5E444 = 32ECECA8082FC63500E5E444;
+			32ECECA9082FC63500E5E444 = 32ECECA9082FC63500E5E444;
+			32ECECAA082FC63500E5E444 = 32ECECAA082FC63500E5E444;
+			32ECECAB082FC63500E5E444 = 32ECECAB082FC63500E5E444;
+			32ECECAC082FC63500E5E444 = 32ECECAC082FC63500E5E444;
+			32ECECAD082FC63500E5E444 = 32ECECAD082FC63500E5E444;
+			32ECECAE082FC63500E5E444 = 32ECECAE082FC63500E5E444;
+			32ECF087082FD25A00E5E444 = 32ECF087082FD25A00E5E444;
+			32ECF08B082FD25A00E5E444 = 32ECF08B082FD25A00E5E444;
+			32ECF08C082FD25A00E5E444 = 32ECF08C082FD25A00E5E444;
+			32ECF093082FD25A00E5E444 = 32ECF093082FD25A00E5E444;
+			32ECF094082FD25A00E5E444 = 32ECF094082FD25A00E5E444;
+			32ECF0980830D9A300E5E444 = 32ECF0980830D9A300E5E444;
+			32ECF09C0830D9A300E5E444 = 32ECF09C0830D9A300E5E444;
+			32ECFE1708336C6D00E5E444 = 32ECFE1708336C6D00E5E444;
+			32ECFE1A08336C6D00E5E444 = 32ECFE1A08336C6D00E5E444;
+			32ECFE1B08336C6D00E5E444 = 32ECFE1B08336C6D00E5E444;
+			32ECFE1C08336C6D00E5E444 = 32ECFE1C08336C6D00E5E444;
+			32ECFE1F08336C6D00E5E444 = 32ECFE1F08336C6D00E5E444;
+			32ECFE2E08336C6D00E5E444 = 32ECFE2E08336C6D00E5E444;
+			32ECFF3E083A0FB200E5E444 = 32ECFF3E083A0FB200E5E444;
+			32ECFF40083A0FB200E5E444 = 32ECFF40083A0FB200E5E444;
+			32ECFF41083A0FB200E5E444 = 32ECFF41083A0FB200E5E444;
+			32ECFF47083A0FB200E5E444 = 32ECFF47083A0FB200E5E444;
+			32ECFF4A083A0FB200E5E444 = 32ECFF4A083A0FB200E5E444;
+			32ECFF4C083A0FB200E5E444 = 32ECFF4C083A0FB200E5E444;
+			32ECFF54083A0FB200E5E444 = 32ECFF54083A0FB200E5E444;
+			32ECFF55083A0FB200E5E444 = 32ECFF55083A0FB200E5E444;
+			32ECFF5B083A0FB200E5E444 = 32ECFF5B083A0FB200E5E444;
+			32ECFF5D083A0FB200E5E444 = 32ECFF5D083A0FB200E5E444;
+			32ECFF61083A0FB200E5E444 = 32ECFF61083A0FB200E5E444;
+			32ECFF65083A0FB200E5E444 = 32ECFF65083A0FB200E5E444;
+			32ECFF66083A0FB200E5E444 = 32ECFF66083A0FB200E5E444;
+			32ECFF68083A0FB200E5E444 = 32ECFF68083A0FB200E5E444;
+			32ECFF71083A0FB200E5E444 = 32ECFF71083A0FB200E5E444;
+			32ECFF74083A0FB200E5E444 = 32ECFF74083A0FB200E5E444;
+			32ECFF86083A0FB200E5E444 = 32ECFF86083A0FB200E5E444;
+			32ECFF8F083A0FB200E5E444 = 32ECFF8F083A0FB200E5E444;
+			32ECFF97083A0FB200E5E444 = 32ECFF97083A0FB200E5E444;
+		};
+		sourceControlManager = 32F9765B074B48AB0023331B;
+		userBuildSettings = {
+		};
+	};
+	3223395608547AFF00E7F2F4 = {
+		fRef = 3224E47B08435DE800C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPathTest.cpp: 491";
+		rLen = 0;
+		rLoc = 21969;
+		rType = 0;
+		vrLen = 1949;
+		vrLoc = 14876;
+	};
+	3223395708547AFF00E7F2F4 = {
+		fRef = 3224E47B08435DE800C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPathTest.cpp: 491";
+		rLen = 0;
+		rLoc = 21969;
+		rType = 0;
+		vrLen = 1949;
+		vrLoc = 14876;
+	};
+	3223395808547AFF00E7F2F4 = {
+		fRef = 32FFF54A06E9CEBD00E1D8A3;
+		isa = PBXTextBookmark;
+		name = PolylinePathway;
+		rLen = 15;
+		rLoc = 1939;
+		rType = 0;
+		vrLen = 1717;
+		vrLoc = 0;
+	};
+	32233961085593FA00E7F2F4 = {
+		fRef = 32FFF54A06E9CEBD00E1D8A3;
+		isa = PBXTextBookmark;
+		name = PolylinePathway;
+		rLen = 15;
+		rLoc = 1939;
+		rType = 0;
+		vrLen = 1985;
+		vrLoc = 1684;
+	};
+	32233962085593FA00E7F2F4 = {
+		fRef = 32FFF54A06E9CEBD00E1D8A3;
+		isa = PBXTextBookmark;
+		name = PolylinePathway;
+		rLen = 15;
+		rLoc = 1939;
+		rType = 0;
+		vrLen = 1717;
+		vrLoc = 0;
+	};
+	32233963085593FA00E7F2F4 = {
+		fRef = 3224E4F50844AC3B00C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPath.h: 122";
+		rLen = 0;
+		rLoc = 5185;
+		rType = 0;
+		vrLen = 2081;
+		vrLoc = 3396;
+	};
+	3224E3D70842476300C13D97 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 2618}}";
+			sepNavSelRange = "{2179, 32}";
+			sepNavVisRect = "{{0, 600}, {1019, 579}}";
+		};
+	};
+	3224E43A08435ABA00C13D97 = {
+		fRef = 32FFF52906E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = "LocalSpace.h: 129";
+		rLen = 0;
+		rLoc = 5404;
+		rType = 0;
+		vrLen = 1755;
+		vrLoc = 5584;
+	};
+	3224E43B08435ABA00C13D97 = {
+		fRef = 32FFF52406E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = velocity;
+		rLen = 8;
+		rLoc = 2356;
+		rType = 0;
+		vrLen = 1532;
+		vrLoc = 2143;
+	};
+	3224E43C08435ABA00C13D97 = {
+		fRef = 32FFF53006E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = "SteerLibrary.h: 67";
+		rLen = 292;
+		rLoc = 2434;
+		rType = 0;
+		vrLen = 880;
+		vrLoc = 2150;
+	};
+	3224E43D08435ABA00C13D97 = {
+		fRef = 32FFF52F06E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = "SimpleVehicle.h: 88";
+		rLen = 0;
+		rLoc = 3763;
+		rType = 0;
+		vrLen = 974;
+		vrLoc = 3166;
+	};
+	3224E44108435ABA00C13D97 = {
+		fRef = 32ECFEAA0833893500E5E444;
+		isa = PBXTextBookmark;
+		name = "Vec3Utilities.h: 51";
+		rLen = 0;
+		rLoc = 2168;
+		rType = 0;
+		vrLen = 1038;
+		vrLoc = 1553;
+	};
+	3224E47508435BCC00C13D97 = {
+		activeExec = 0;
+		executables = (
+			3224E47708435BCC00C13D97,
+		);
+	};
+	3224E47708435BCC00C13D97 = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		cppStopOnCatchEnabled = 0;
+		cppStopOnThrowEnabled = 0;
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		isa = PBXExecutable;
+		libgmallocEnabled = 0;
+		name = UnitTest;
+		savedGlobals = {
+		};
+		shlibInfoDictList_v2 = (
+			{
+				level = 0;
+				path = /usr/lib/system/libmathCommon.A.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libSystem.B.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libgcc_s.1.0.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libmx.A.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/usr/lib/libstdc++.6.0.3.dylib";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Applications/usr/local/lib/libcppunit-1.10.2.0.0.dylib";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libicucore.A.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libauto.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libobjc.A.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libz.1.2.2.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Security.framework/Versions/A/Security;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CFNetwork.framework/Versions/A/CFNetwork;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/WebServicesCore.framework/Versions/A/WebServicesCore;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libbsm.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libcrypto.0.9.7.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreText.framework/Versions/A/CoreText;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libcups.2.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/FindByContent.framework/Versions/A/FindByContent;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libJPEG.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libJP2.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libGIF.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libRaw.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libTIFF.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libPng.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libRadiance.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/ImageIO;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CarbonSound.framework/Versions/A/CarbonSound;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libiconv.2.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libxml2.2.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/PrivateFrameworks/DesktopServicesPriv.framework/Versions/A/DesktopServicesPriv;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SpeechRecognition.framework/Versions/A/SpeechRecognition;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/AudioUnit.framework/Versions/A/AudioUnit;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libsqlite3.0.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreData.framework/Versions/A/CoreData;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLImage.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/GLUT.framework/Versions/A/GLUT;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/UnitTest;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /Developer/Applications/Xcode.app/Contents/PlugIns/GDBMIDebugging.xcplugin/Contents/Resources/PBGDBIntrospectionSupport.A.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/dyld;
+				whenToLoad = 0;
+			},
+		);
+		sourceDirectories = (
+		);
+	};
+	3224E47A08435DE800C13D97 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 1162}}";
+			sepNavSelRange = "{1661, 0}";
+			sepNavVisRect = "{{0, 114}, {993, 906}}";
+		};
+	};
+	3224E47B08435DE800C13D97 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 9170}}";
+			sepNavSelRange = "{21969, 0}";
+			sepNavVisRect = "{{0, 4783}, {1019, 579}}";
+		};
+	};
+	3224E47D08435E0700C13D97 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {989, 717}}";
+			sepNavSelRange = "{283, 0}";
+			sepNavVisRect = "{{0, 0}, {989, 717}}";
+		};
+	};
+	3224E4A50843657800C13D97 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {605, 519}}";
+			sepNavSelRange = "{128, 0}";
+			sepNavVisRect = "{{0, 0}, {605, 519}}";
+		};
+	};
+	3224E4AC0844A32F00C13D97 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 1946}}";
+			sepNavSelRange = "{4769, 0}";
+			sepNavVisRect = "{{0, 1353}, {1019, 579}}";
+		};
+	};
+	3224E4B80844A5D600C13D97 = {
+		fRef = 32C1508A0765ABE000A8BC25;
+		isa = PBXTextBookmark;
+		name = "TerrainRayTest.h: 88";
+		rLen = 0;
+		rLoc = 2087;
+		rType = 0;
+		vrLen = 561;
+		vrLoc = 1849;
+	};
+	3224E4B90844A5D600C13D97 = {
+		fRef = 324386DA07293A2200B6EBA6;
+		isa = PBXTextBookmark;
+		name = "Draw.h: 63";
+		rLen = 0;
+		rLoc = 2399;
+		rType = 0;
+		vrLen = 786;
+		vrLoc = 2193;
+	};
+	3224E4BB0844A5D600C13D97 = {
+		fRef = 3224E47D08435E0700C13D97;
+		isa = PBXTextBookmark;
+		name = "TestMain.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 168;
+		vrLoc = 0;
+	};
+	3224E4BC0844A5D600C13D97 = {
+		fRef = 3224E4A50843657800C13D97;
+		isa = PBXTextBookmark;
+		name = "StandardTypes.h: 5";
+		rLen = 0;
+		rLoc = 128;
+		rType = 0;
+		vrLen = 302;
+		vrLoc = 0;
+	};
+	3224E4C90844A5D600C13D97 = {
+		fRef = 32C1508A0765ABE000A8BC25;
+		isa = PBXTextBookmark;
+		name = "TerrainRayTest.h: 88";
+		rLen = 0;
+		rLoc = 2087;
+		rType = 0;
+		vrLen = 561;
+		vrLoc = 1849;
+	};
+	3224E4CB0844A5D600C13D97 = {
+		fRef = 3224E47A08435DE800C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylinePathTest.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 151;
+		vrLoc = 0;
+	};
+	3224E4CC0844A5D600C13D97 = {
+		fRef = 3224E47D08435E0700C13D97;
+		isa = PBXTextBookmark;
+		name = "TestMain.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 168;
+		vrLoc = 0;
+	};
+	3224E4CD0844A5D600C13D97 = {
+		fRef = 3224E4A50843657800C13D97;
+		isa = PBXTextBookmark;
+		name = "StandardTypes.h: 5";
+		rLen = 0;
+		rLoc = 128;
+		rType = 0;
+		vrLen = 302;
+		vrLoc = 0;
+	};
+	3224E4D90844A5D600C13D97 = {
+		fRef = 3224E4AC0844A32F00C13D97;
+		isa = PBXTextBookmark;
+		name = "SegmentedPathway.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 151;
+		vrLoc = 0;
+	};
+	3224E4F20844AB8E00C13D97 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 1764}}";
+			sepNavSelRange = "{4296, 0}";
+			sepNavVisRect = "{{0, 1171}, {1019, 579}}";
+		};
+	};
+	3224E4F40844AC1700C13D97 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 1008}}";
+			sepNavSelRange = "{276, 132}";
+			sepNavVisRect = "{{0, 0}, {993, 906}}";
+		};
+	};
+	3224E4F50844AC3B00C13D97 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {688, 2002}}";
+			sepNavSelRange = "{5185, 0}";
+			sepNavVisRect = "{{0, 1244}, {688, 632}}";
+		};
+	};
+	3224E4F60844AC8700C13D97 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 1372}}";
+			sepNavSelRange = "{3603, 0}";
+			sepNavVisRect = "{{0, 579}, {1019, 579}}";
+			sepNavWindowFrame = "{{20, -68}, {733, 746}}";
+		};
+	};
+	3224E4F70844ACA200C13D97 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 1750}}";
+			sepNavSelRange = "{4365, 0}";
+			sepNavVisRect = "{{0, 908}, {1019, 579}}";
+		};
+	};
+	3224E4F80844ACF800C13D97 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 2436}}";
+			sepNavSelRange = "{3554, 151}";
+			sepNavVisRect = "{{0, 1821}, {1019, 579}}";
+		};
+	};
+	3224E4FB0844B13C00C13D97 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 579}}";
+			sepNavSelRange = "{29, 25}";
+			sepNavVisRect = "{{0, 0}, {1019, 579}}";
+		};
+	};
+	3224E4FD0844B15200C13D97 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 579}}";
+			sepNavSelRange = "{0, 37}";
+			sepNavVisRect = "{{0, 0}, {1019, 579}}";
+		};
+	};
+	3224E4FF0844B16200C13D97 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 6496}}";
+			sepNavSelRange = "{15385, 58}";
+			sepNavVisRect = "{{0, 5917}, {1019, 579}}";
+			sepNavWindowFrame = "{{15, -5}, {733, 746}}";
+		};
+	};
+	3224E5010844B17700C13D97 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 579}}";
+			sepNavSelRange = "{0, 31}";
+			sepNavVisRect = "{{0, 0}, {1019, 579}}";
+		};
+	};
+	3224E5030844B18600C13D97 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 579}}";
+			sepNavSelRange = "{0, 40}";
+			sepNavVisRect = "{{0, 0}, {1019, 579}}";
+		};
+	};
+	3224E5050844B1A500C13D97 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 3934}}";
+			sepNavSelRange = "{7475, 0}";
+			sepNavVisRect = "{{0, 3355}, {1019, 579}}";
+			sepNavWindowFrame = "{{15, -5}, {733, 746}}";
+		};
+	};
+	3224E5070844B1B800C13D97 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 4858}}";
+			sepNavSelRange = "{10270, 0}";
+			sepNavVisRect = "{{0, 4279}, {1019, 579}}";
+		};
+	};
+	3224E50D0844B21000C13D97 = {
+		fRef = 32FFF52C06E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = "PathwayOld.h: 113";
+		rLen = 112;
+		rLoc = 3839;
+		rType = 0;
+		vrLen = 819;
+		vrLoc = 4870;
+	};
+	3224E50F0844B21000C13D97 = {
+		fRef = 32ECFE5D083370D400E5E444;
+		isa = PBXTextBookmark;
+		name = "OldPolylinePathway.h: 156";
+		rLen = 0;
+		rLoc = 5457;
+		rType = 0;
+		vrLen = 1449;
+		vrLoc = 0;
+	};
+	3224E5100844B21000C13D97 = {
+		fRef = 32ECFE7408337A0B00E5E444;
+		isa = PBXTextBookmark;
+		name = "OldPathwayUtilities.h: 64";
+		rLen = 0;
+		rLoc = 2274;
+		rType = 0;
+		vrLen = 622;
+		vrLoc = 1683;
+	};
+	3224E5150844B21000C13D97 = {
+		fRef = 32ECFE7908337AD900E5E444;
+		isa = PBXTextBookmark;
+		name = "OldPathwayUtilities.cpp: 33";
+		rLen = 0;
+		rLoc = 1482;
+		rType = 0;
+		vrLen = 456;
+		vrLoc = 1483;
+	};
+	3224E5160844B21000C13D97 = {
+		fRef = 32ECFE9A083386FA00E5E444;
+		isa = PBXTextBookmark;
+		name = pointToSegmentDistance;
+		rLen = 22;
+		rLoc = 3440;
+		rType = 0;
+		vrLen = 885;
+		vrLoc = 2951;
+	};
+	3224E5190844B21000C13D97 = {
+		fRef = 32ECFE5008336FCF00E5E444;
+		isa = PBXTextBookmark;
+		name = "OldPathway.cpp: 47";
+		rLen = 0;
+		rLoc = 1713;
+		rType = 0;
+		vrLen = 889;
+		vrLoc = 822;
+	};
+	3224E51B0844B21000C13D97 = {
+		fRef = 32C150890765ABE000A8BC25;
+		isa = PBXTextBookmark;
+		name = "TerrainRayTest.cpp: 32";
+		rLen = 0;
+		rLoc = 536;
+		rType = 0;
+		vrLen = 396;
+		vrLoc = 290;
+	};
+	3224E5270844B21000C13D97 = {
+		fRef = 3224E4F20844AB8E00C13D97;
+		isa = PBXTextBookmark;
+		name = "SegmentedPath.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 148;
+		vrLoc = 0;
+	};
+	3224E5310844B21000C13D97 = {
+		fRef = 3224E4F50844AC3B00C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPath.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 156;
+		vrLoc = 0;
+	};
+	3224E5320844B21000C13D97 = {
+		fRef = 3224E4F60844AC8700C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPathwaySingleRadius.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 171;
+		vrLoc = 0;
+	};
+	3224E5330844B21000C13D97 = {
+		fRef = 3224E4F70844ACA200C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPathwaySegmentRadii.h: 1";
+		rLen = 0;
+		rLoc = 4851;
+		rType = 0;
+		vrLen = 171;
+		vrLoc = 0;
+	};
+	3224E53C0844B21000C13D97 = {
+		fRef = 3224E4FB0844B13C00C13D97;
+		isa = PBXTextBookmark;
+		name = "Path.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 70;
+		vrLoc = 0;
+	};
+	3224E5420844B21000C13D97 = {
+		fRef = 3224E5030844B18600C13D97;
+		isa = PBXTextBookmark;
+		name = "SegmentedPathway.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 106;
+		vrLoc = 0;
+	};
+	3224E5440844B21000C13D97 = {
+		fRef = 32C150890765ABE000A8BC25;
+		isa = PBXTextBookmark;
+		name = "TerrainRayTest.cpp: 32";
+		rLen = 0;
+		rLoc = 536;
+		rType = 0;
+		vrLen = 396;
+		vrLoc = 290;
+	};
+	3224E5460844B21000C13D97 = {
+		fRef = 3224E5070844B1B800C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPathwaySegmentRadii.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 224;
+		vrLoc = 0;
+	};
+	3224E5680844B85300C13D97 = {
+		fRef = 32ECFF160834CC4500E5E444;
+		isa = PBXTextBookmark;
+		name = "void assignPoints( size_type pointCount, Vec3 const points[], bool closeCycle = false )";
+		rLen = 87;
+		rLoc = 1514;
+		rType = 0;
+		vrLen = 932;
+		vrLoc = 0;
+	};
+	3224E59508485F8A00C13D97 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {688, 2324}}";
+			sepNavSelRange = "{3680, 0}";
+			sepNavVisRect = "{{0, 1091}, {688, 632}}";
+			sepNavWindowFrame = "{{112, -6}, {733, 746}}";
+		};
+	};
+	3224E5D90848A2F500C13D97 = {
+		fRef = 3224E4FB0844B13C00C13D97;
+		isa = PBXTextBookmark;
+		name = "Path.cpp: 5";
+		rLen = 0;
+		rLoc = 77;
+		rType = 0;
+		vrLen = 70;
+		vrLoc = 0;
+	};
+	3224E5DA0848A2F500C13D97 = {
+		fRef = 3224E5010844B17700C13D97;
+		isa = PBXTextBookmark;
+		name = "Pathway.cpp: 5";
+		rLen = 0;
+		rLoc = 86;
+		rType = 0;
+		vrLen = 79;
+		vrLoc = 0;
+	};
+	3224E5F30848A2F500C13D97 = {
+		fRef = 3224E5010844B17700C13D97;
+		isa = PBXTextBookmark;
+		name = "Pathway.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 22;
+		vrLoc = 0;
+	};
+	3224E65B0849C15E00C13D97 = {
+		fRef = 3224E4FD0844B15200C13D97;
+		isa = PBXTextBookmark;
+		name = "SegmentedPath.cpp: 5";
+		rLen = 0;
+		rLoc = 104;
+		rType = 0;
+		vrLen = 97;
+		vrLoc = 0;
+	};
+	3224E6600849C27400C13D97 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {688, 1764}}";
+			sepNavSelRange = "{3927, 540}";
+			sepNavVisRect = "{{0, 1054}, {688, 632}}";
+		};
+	};
+	3224E6810849CE1300C13D97 = {
+		fRef = 32FFF53306E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = "Vec3.h: Vec3";
+		rLen = 0;
+		rLoc = 2961;
+		rType = 0;
+		vrLen = 1038;
+		vrLoc = 2398;
+	};
+	3224E6880849CE1300C13D97 = {
+		fRef = 3224E4FF0844B16200C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPath.cpp: 274";
+		rLen = 0;
+		rLoc = 10928;
+		rType = 0;
+		vrLen = 1201;
+		vrLoc = 11352;
+	};
+	3224E6890849CE1300C13D97 = {
+		fRef = 3224E6600849C27400C13D97;
+		isa = PBXTextBookmark;
+		name = "QueryPathAlikeMappping.h: 38";
+		rLen = 0;
+		rLoc = 1915;
+		rType = 0;
+		vrLen = 1182;
+		vrLoc = 0;
+	};
+	3224E68D0849CE1300C13D97 = {
+		fRef = 3224E59508485F8A00C13D97;
+		isa = PBXTextBookmark;
+		name = "QueryPathAlikeUtilities.h: 144";
+		rLen = 0;
+		rLoc = 4477;
+		rType = 0;
+		vrLen = 961;
+		vrLoc = 3889;
+	};
+	3224E68E0849CE1300C13D97 = {
+		fRef = 3224E4F80844ACF800C13D97;
+		isa = PBXTextBookmark;
+		name = "QueryPathAlikes.h: 106";
+		rLen = 339;
+		rLoc = 5360;
+		rType = 0;
+		vrLen = 2150;
+		vrLoc = 2301;
+	};
+	3224E6DC084B971B00C13D97 = {
+		fRef = 3224E5030844B18600C13D97;
+		isa = PBXTextBookmark;
+		name = "SegmentedPathway.cpp: 7";
+		rLen = 0;
+		rLoc = 116;
+		rType = 0;
+		vrLen = 106;
+		vrLoc = 0;
+	};
+	3224E70F084B9F2C00C13D97 = {
+		fRef = 3224E6600849C27400C13D97;
+		isa = PBXTextBookmark;
+		name = "QueryPathAlikeMappings.h: 91";
+		rLen = 0;
+		rLoc = 3638;
+		rType = 0;
+		vrLen = 1821;
+		vrLoc = 2732;
+	};
+	3224E710084B9F2C00C13D97 = {
+		fRef = 3224E59508485F8A00C13D97;
+		isa = PBXTextBookmark;
+		name = HasSegmentRadii;
+		rLen = 15;
+		rLoc = 2810;
+		rType = 0;
+		vrLen = 1411;
+		vrLoc = 2270;
+	};
+	3224E75F084CCC8D00C13D97 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = math.h;
+		path = /usr/include/architecture/ppc/math.h;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	3224E76B084CCDF100C13D97 = {
+		fRef = 32FFF54606E9CEBD00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "return (( t.tv_sec  - baseRealTimeSec) +";
+		rLen = 45;
+		rLoc = 10126;
+		rType = 0;
+		vrLen = 203;
+		vrLoc = 10038;
+	};
+	3224E76C084CCDF100C13D97 = {
+		fRef = 3224E75F084CCC8D00C13D97;
+		isa = PBXTextBookmark;
+		name = "#define math_errhandling (__math_errhandling())";
+		rLen = 48;
+		rLoc = 4063;
+		rType = 0;
+		vrLen = 575;
+		vrLoc = 9557;
+	};
+	3224E770084CCDF100C13D97 = {
+		fRef = 32FFF54606E9CEBD00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "return (( t.tv_sec  - baseRealTimeSec) +";
+		rLen = 45;
+		rLoc = 10126;
+		rType = 0;
+		vrLen = 203;
+		vrLoc = 10038;
+	};
+	3224E771084CCDF100C13D97 = {
+		fRef = 32FFF53206E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = "Utilities.h: 47";
+		rLen = 0;
+		rLoc = 1890;
+		rType = 0;
+		vrLen = 1363;
+		vrLoc = 0;
+	};
+	3224E772084CCDF100C13D97 = {
+		fRef = 3224E773084CCDF100C13D97;
+		isa = PBXTextBookmark;
+		name = "using ::acos;";
+		rLen = 16;
+		rLoc = 2775;
+		rType = 0;
+		vrLen = 504;
+		vrLoc = 2558;
+	};
+	3224E773084CCDF100C13D97 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.h;
+		name = cmath;
+		path = "/usr/include/gcc/darwin/4.0/c++/cmath";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	3224E779084CCE5B00C13D97 = {
+		fRef = 32FFF54606E9CEBD00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "return (( t.tv_sec  - baseRealTimeSec) +";
+		rLen = 45;
+		rLoc = 10126;
+		rType = 0;
+		vrLen = 1121;
+		vrLoc = 9201;
+	};
+	3230BE65084CD68000CBB0D9 = {
+		fRef = 3224E773084CCDF100C13D97;
+		isa = PBXTextBookmark;
+		name = "cmath: 155";
+		rLen = 0;
+		rLoc = 3966;
+		rType = 0;
+		vrLen = 471;
+		vrLoc = 2354;
+	};
+	3230BE67084CD68000CBB0D9 = {
+		fRef = 3224E773084CCDF100C13D97;
+		isa = PBXTextBookmark;
+		name = "cmath: 155";
+		rLen = 0;
+		rLoc = 3966;
+		rType = 0;
+		vrLen = 471;
+		vrLoc = 2354;
+	};
+	3230BEEA084CE8F300CBB0D9 = {
+		fRef = 324DA5EE082ABDD8000F3779;
+		isa = PBXTextBookmark;
+		name = "#include \"OpenSteer/Color.h\"";
+		rLen = 29;
+		rLoc = 1450;
+		rType = 0;
+		vrLen = 1466;
+		vrLoc = 290;
+	};
+	3230BEEC084CE8F300CBB0D9 = {
+		fRef = 3224E4FB0844B13C00C13D97;
+		isa = PBXTextBookmark;
+		name = "OpenSteer::Path::~Path()";
+		rLen = 25;
+		rLoc = 29;
+		rType = 0;
+		vrLen = 80;
+		vrLoc = 0;
+	};
+	3230BF18084CE8F300CBB0D9 = {
+		fRef = 324DA5EE082ABDD8000F3779;
+		isa = PBXTextBookmark;
+		name = "#include \"OpenSteer/Color.h\"";
+		rLen = 29;
+		rLoc = 1450;
+		rType = 0;
+		vrLen = 1466;
+		vrLoc = 290;
+	};
+	3230BF1B084CE8F300CBB0D9 = {
+		fRef = 3224E4F40844AC1700C13D97;
+		isa = PBXTextBookmark;
+		name = "virtual Vec3 mapPointToPath (const Vec3& point,";
+		rLen = 50;
+		rLoc = 795;
+		rType = 0;
+		vrLen = 1142;
+		vrLoc = 0;
+	};
+	3230BF28084CE8F300CBB0D9 = {
+		fRef = 3224E4AC0844A32F00C13D97;
+		isa = PBXTextBookmark;
+		name = "SegmentedPathway.h: 11";
+		rLen = 0;
+		rLoc = 205;
+		rType = 0;
+		vrLen = 1603;
+		vrLoc = 914;
+	};
+	3230BFC0084CF39800CBB0D9 = {
+		fRef = 3224E5010844B17700C13D97;
+		isa = PBXTextBookmark;
+		name = "#include \"OpenSteer/Pathway.h\"";
+		rLen = 31;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 89;
+		vrLoc = 0;
+	};
+	3230BFC2084CF39800CBB0D9 = {
+		fRef = 3224E5030844B18600C13D97;
+		isa = PBXTextBookmark;
+		name = "#include \"OpenSteer/SegmentedPathway.h\"";
+		rLen = 40;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 116;
+		vrLoc = 0;
+	};
+	3230BFC8084CF39800CBB0D9 = {
+		fRef = 32ECF063082FC7FB00E5E444;
+		isa = PBXTextBookmark;
+		name = OPENSTEER_UNUSED_PARAMETER;
+		rLen = 26;
+		rLoc = 1760;
+		rType = 0;
+		vrLen = 1630;
+		vrLoc = 214;
+	};
+	3230BFCB084CF39800CBB0D9 = {
+		fRef = 3224E3D70842476300C13D97;
+		isa = PBXTextBookmark;
+		name = "Math.h: 11";
+		rLen = 0;
+		rLoc = 290;
+		rType = 0;
+		vrLen = 1183;
+		vrLoc = 0;
+	};
+	3230BFEC084CF39800CBB0D9 = {
+		fRef = 3224E5050844B1A500C13D97;
+		isa = PBXTextBookmark;
+		name = "{";
+		rLen = 2;
+		rLoc = 1801;
+		rType = 0;
+		vrLen = 892;
+		vrLoc = 1314;
+	};
+	3230C053084DB63700CBB0D9 = {
+		fRef = 3224E47D08435E0700C13D97;
+		isa = PBXTextBookmark;
+		name = "TestMain.cpp: main";
+		rLen = 0;
+		rLoc = 283;
+		rType = 0;
+		vrLen = 662;
+		vrLoc = 0;
+	};
+	3230C093084DB8D900CBB0D9 = {
+		fRef = 84AD12B1070E224000559513;
+		isa = PBXTextBookmark;
+		name = Color;
+		rLen = 5;
+		rLoc = 18637;
+		rType = 0;
+		vrLen = 1831;
+		vrLoc = 17545;
+	};
+	3230C094084DB8D900CBB0D9 = {
+		fRef = 84AD12AD070E221100559513;
+		isa = PBXTextBookmark;
+		name = "OpenSteerDemo.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1535;
+		vrLoc = 10597;
+	};
+	3230C09F084DBA1B00CBB0D9 = {
+		fRef = 84AD12B1070E224000559513;
+		isa = PBXTextBookmark;
+		name = Color;
+		rLen = 5;
+		rLoc = 18637;
+		rType = 0;
+		vrLen = 1562;
+		vrLoc = 17669;
+	};
+	3230C0A0084DBA1B00CBB0D9 = {
+		fRef = 32FFF54906E9CEBD00E1D8A3;
+		isa = PBXTextBookmark;
+		name = initializeGraphics;
+		rLen = 18;
+		rLoc = 1980;
+		rType = 0;
+		vrLen = 1314;
+		vrLoc = 880;
+	};
+	3230C0A8084DBA1B00CBB0D9 = {
+		fRef = 32FFF54906E9CEBD00E1D8A3;
+		isa = PBXTextBookmark;
+		name = initializeGraphics;
+		rLen = 18;
+		rLoc = 1980;
+		rType = 0;
+		vrLen = 1314;
+		vrLoc = 880;
+	};
+	3230C0B5084DBAF500CBB0D9 = {
+		fRef = 32FFF54906E9CEBD00E1D8A3;
+		isa = PBXTextBookmark;
+		name = initializeGraphics;
+		rLen = 18;
+		rLoc = 1980;
+		rType = 0;
+		vrLen = 1829;
+		vrLoc = 365;
+	};
+	3230C0ED084DBF9500CBB0D9 = {
+		fRef = 3224E3D70842476300C13D97;
+		isa = PBXTextBookmark;
+		name = "Math.h: modulo";
+		rLen = 0;
+		rLoc = 1886;
+		rType = 0;
+		vrLen = 1396;
+		vrLoc = 1100;
+	};
+	3230C0F0084DBF9500CBB0D9 = {
+		fRef = 3224E4F50844AC3B00C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPath.h: isValid";
+		rLen = 0;
+		rLoc = 3500;
+		rType = 0;
+		vrLen = 2869;
+		vrLoc = 2163;
+	};
+	3230C0F6084DBF9500CBB0D9 = {
+		fRef = 32ECFE4C08336C8C00E5E444;
+		isa = PBXTextBookmark;
+		name = "Pathway.h: 59";
+		rLen = 0;
+		rLoc = 2126;
+		rType = 0;
+		vrLen = 1955;
+		vrLoc = 1490;
+	};
+	3230C11D084DC24A00CBB0D9 = {
+		fRef = 32ECFE4C08336C8C00E5E444;
+		isa = PBXTextBookmark;
+		name = "Pathway.h: 69";
+		rLen = 0;
+		rLoc = 2796;
+		rType = 0;
+		vrLen = 1497;
+		vrLoc = 1831;
+	};
+	3230C120084DC24A00CBB0D9 = {
+		fRef = 32ECFE4C08336C8C00E5E444;
+		isa = PBXTextBookmark;
+		name = "Pathway.h: 69";
+		rLen = 0;
+		rLoc = 2796;
+		rType = 0;
+		vrLen = 1497;
+		vrLoc = 1831;
+	};
+	3230C122084DC24A00CBB0D9 = {
+		fRef = 3224E4FF0844B16200C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPath.cpp: 375";
+		rLen = 0;
+		rLoc = 12319;
+		rType = 0;
+		vrLen = 1168;
+		vrLoc = 10433;
+	};
+	3230C145084DDDD000CBB0D9 = {
+		fRef = 32FFF53206E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = "Utilities.h: 266";
+		rLen = 0;
+		rLoc = 9495;
+		rType = 0;
+		vrLen = 2528;
+		vrLoc = 8566;
+	};
+	3230C149084DDDD000CBB0D9 = {
+		fRef = 3224E47A08435DE800C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPathTest.h: pointCount_";
+		rLen = 323;
+		rLoc = 1974;
+		rType = 0;
+		vrLen = 1691;
+		vrLoc = 0;
+	};
+	3230C188084DECA500CBB0D9 = {
+		fRef = 3230C189084DECA500CBB0D9;
+		isa = PBXTextBookmark;
+		name = "(null): 343";
+		rLen = 0;
+		rLoc = 12238;
+		rType = 0;
+		vrLen = 376;
+		vrLoc = 12091;
+	};
+	3230C189084DECA500CBB0D9 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = stl_vector.h;
+		path = "/usr/include/gcc/darwin/4.0/c++/bits/stl_vector.h";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	3230C18A084DECA500CBB0D9 = {
+		fRef = 3230C18B084DECA500CBB0D9;
+		isa = PBXTextBookmark;
+		name = "(null): 287";
+		rLen = 0;
+		rLoc = 9848;
+		rType = 0;
+		vrLen = 248;
+		vrLoc = 9739;
+	};
+	3230C18B084DECA500CBB0D9 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.h;
+		name = memory;
+		path = "/usr/include/gcc/darwin/4.0/c++/memory";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	3230C193084DECA500CBB0D9 = {
+		fRef = 3230C194084DECA500CBB0D9;
+		isa = PBXTextBookmark;
+		name = "(null): 343";
+		rLen = 0;
+		rLoc = 12238;
+		rType = 0;
+		vrLen = 376;
+		vrLoc = 12091;
+	};
+	3230C194084DECA500CBB0D9 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = stl_vector.h;
+		path = "/usr/include/gcc/darwin/4.0/c++/bits/stl_vector.h";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	3230C197084DECA500CBB0D9 = {
+		fRef = 3230C198084DECA500CBB0D9;
+		isa = PBXTextBookmark;
+		name = "(null): 287";
+		rLen = 0;
+		rLoc = 9848;
+		rType = 0;
+		vrLen = 248;
+		vrLoc = 9739;
+	};
+	3230C198084DECA500CBB0D9 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.h;
+		name = memory;
+		path = "/usr/include/gcc/darwin/4.0/c++/memory";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	3230C1B4084DEEB200CBB0D9 = {
+		fRef = 3224E4FF0844B16200C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPath.cpp: length";
+		rLen = 0;
+		rLoc = 11760;
+		rType = 0;
+		vrLen = 1470;
+		vrLoc = 11092;
+	};
+	3230C1F0084E01AC00CBB0D9 = {
+		fRef = 32ECFE4C08336C8C00E5E444;
+		isa = PBXTextBookmark;
+		name = "Pathway.h: 67";
+		rLen = 0;
+		rLoc = 2490;
+		rType = 0;
+		vrLen = 1676;
+		vrLoc = 150;
+	};
+	3230C23E084E098F00CBB0D9 = {
+		fRef = 3224E3D70842476300C13D97;
+		isa = PBXTextBookmark;
+		name = "Math.h: modulo";
+		rLen = 0;
+		rLoc = 1994;
+		rType = 0;
+		vrLen = 1503;
+		vrLoc = 3744;
+	};
+	3230C23F084E098F00CBB0D9 = {
+		fRef = 3224E4F40844AC1700C13D97;
+		isa = PBXTextBookmark;
+		name = "Path.h: 23";
+		rLen = 132;
+		rLoc = 276;
+		rType = 0;
+		vrLen = 1262;
+		vrLoc = 0;
+	};
+	3230C242084E098F00CBB0D9 = {
+		fRef = 3224E3D70842476300C13D97;
+		isa = PBXTextBookmark;
+		name = "Math.h: modulo";
+		rLen = 0;
+		rLoc = 1994;
+		rType = 0;
+		vrLen = 1503;
+		vrLoc = 3744;
+	};
+	3230C244084E098F00CBB0D9 = {
+		fRef = 3224E4F40844AC1700C13D97;
+		isa = PBXTextBookmark;
+		name = "Path.h: 23";
+		rLen = 132;
+		rLoc = 276;
+		rType = 0;
+		vrLen = 1262;
+		vrLoc = 0;
+	};
+	3230C271084E0D9A00CBB0D9 = {
+		fRef = 32ECFE5008336FCF00E5E444;
+		isa = PBXTextBookmark;
+		name = "OldPathway.cpp: 47";
+		rLen = 0;
+		rLoc = 1713;
+		rType = 0;
+		vrLen = 1713;
+		vrLoc = 0;
+	};
+	3230C35D084F268500CBB0D9 = {
+		fRef = 3224E47A08435DE800C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPathTest.h: 37";
+		rLen = 0;
+		rLoc = 1048;
+		rType = 0;
+		vrLen = 1449;
+		vrLoc = 570;
+	};
+	3230C35F084F268500CBB0D9 = {
+		fRef = 3224E3D70842476300C13D97;
+		isa = PBXTextBookmark;
+		name = "return absXXX( value );";
+		rLen = 32;
+		rLoc = 2179;
+		rType = 0;
+		vrLen = 1178;
+		vrLoc = 1204;
+	};
+	3230C360084F268500CBB0D9 = {
+		fRef = 3230C361084F268500CBB0D9;
+		isa = PBXTextBookmark;
+		name = "(null): 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1796;
+		vrLoc = 0;
+	};
+	3230C361084F268500CBB0D9 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.h;
+		name = limits;
+		path = "/usr/include/gcc/darwin/4.0/c++/limits";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	3230C365084F268500CBB0D9 = {
+		fRef = 3230C366084F268500CBB0D9;
+		isa = PBXTextBookmark;
+		name = "static _Tp epsilon() throw() { return static_cast<_Tp>(0); }";
+		rLen = 67;
+		rLoc = 11359;
+		rType = 0;
+		vrLen = 2037;
+		vrLoc = 10424;
+	};
+	3230C366084F268500CBB0D9 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.h;
+		name = limits;
+		path = "/usr/include/gcc/darwin/4.0/c++/limits";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	3230C372084F268600CBB0D9 = {
+		fRef = 3224E4F50844AC3B00C13D97;
+		isa = PBXTextBookmark;
+		name = "mapPathDistanceToPoint (float pathDistance)";
+		rLen = 43;
+		rLoc = 3694;
+		rType = 0;
+		vrLen = 1779;
+		vrLoc = 3396;
+	};
+	3230C37C084F32DB00CBB0D9 = {
+		fRef = 32FFF52C06E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = "PathwayOld.h: 97";
+		rLen = 0;
+		rLoc = 3531;
+		rType = 0;
+		vrLen = 1136;
+		vrLoc = 4745;
+	};
+	3230C37D084F32DB00CBB0D9 = {
+		fRef = 32FFF54A06E9CEBD00E1D8A3;
+		isa = PBXTextBookmark;
+		name = PolylinePathway;
+		rLen = 15;
+		rLoc = 1939;
+		rType = 0;
+		vrLen = 1370;
+		vrLoc = 7690;
+	};
+	3230C380084F32DB00CBB0D9 = {
+		fRef = 3224E6600849C27400C13D97;
+		isa = PBXTextBookmark;
+		name = "QueryPathAlikeMappings.h: setDistanceOnPath";
+		rLen = 0;
+		rLoc = 2926;
+		rType = 0;
+		vrLen = 1800;
+		vrLoc = 1956;
+	};
+	3230C381084F32DB00CBB0D9 = {
+		fRef = 3224E59508485F8A00C13D97;
+		isa = PBXTextBookmark;
+		name = "return distanceOnPathFlag_;";
+		rLen = 40;
+		rLoc = 3724;
+		rType = 0;
+		vrLen = 1082;
+		vrLoc = 3764;
+	};
+	3230C383084F32DB00CBB0D9 = {
+		fRef = 32FFF56806E9CECE00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "MultiplePursuit.cpp: 41";
+		rLen = 0;
+		rLoc = 1716;
+		rType = 0;
+		vrLen = 1285;
+		vrLoc = 958;
+	};
+	3230C384084F32DB00CBB0D9 = {
+		fRef = 3224E47B08435DE800C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPathTest.cpp: 573";
+		rLen = 0;
+		rLoc = 28225;
+		rType = 0;
+		vrLen = 1325;
+		vrLoc = 23046;
+	};
+	3230C39E084F3BE100CBB0D9 = {
+		fRef = 32FFF56806E9CECE00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "MultiplePursuit.cpp: 41";
+		rLen = 0;
+		rLoc = 1716;
+		rType = 0;
+		vrLen = 1673;
+		vrLoc = 1529;
+	};
+	3230C3DF084F4ECE00CBB0D9 = {
+		fRef = 32ECFEAF083389F000E5E444;
+		isa = PBXTextBookmark;
+		name = "float const segmentLength( segment.length() );";
+		rLen = 51;
+		rLoc = 2268;
+		rType = 0;
+		vrLen = 1177;
+		vrLoc = 1839;
+	};
+	3230C3E0084F4ECE00CBB0D9 = {
+		fRef = 32FFF54E06E9CEBD00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "Vec3.cpp: 45";
+		rLen = 0;
+		rLoc = 2217;
+		rType = 0;
+		vrLen = 1279;
+		vrLoc = 6660;
+	};
+	3230C3E1084F4ECE00CBB0D9 = {
+		fRef = 32FFF53306E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = "Vec3.h: operator /=";
+		rLen = 0;
+		rLoc = 5112;
+		rType = 0;
+		vrLen = 1277;
+		vrLoc = 12708;
+	};
+	3230C3E2084F4ECE00CBB0D9 = {
+		fRef = 32ECFEAA0833893500E5E444;
+		isa = PBXTextBookmark;
+		name = "Vec3Utilities.h: 88";
+		rLen = 0;
+		rLoc = 3245;
+		rType = 0;
+		vrLen = 1459;
+		vrLoc = 1894;
+	};
+	3230C3E3084F4ECE00CBB0D9 = {
+		fRef = 3224E4F40844AC1700C13D97;
+		isa = PBXTextBookmark;
+		name = "* If @c isValid is @c false the behavior is undefined.";
+		rLen = 64;
+		rLoc = 1054;
+		rType = 0;
+		vrLen = 1522;
+		vrLoc = 267;
+	};
+	3230C40D084F652100CBB0D9 = {
+		fRef = 32FFF56706E9CECE00E1D8A3;
+		isa = PBXTextBookmark;
+		name = indexOfNearestSegment;
+		rLen = 21;
+		rLoc = 41669;
+		rType = 0;
+		vrLen = 2202;
+		vrLoc = 27036;
+	};
+	3230C40E084F652100CBB0D9 = {
+		fRef = 32FFF56A06E9CECE00E1D8A3;
+		isa = PBXTextBookmark;
+		name = steer;
+		rLen = 5;
+		rLoc = 7922;
+		rType = 0;
+		vrLen = 2524;
+		vrLoc = 6486;
+	};
+	3230C40F084F652100CBB0D9 = {
+		fRef = 32FFF54C06E9CEBD00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "SimpleVehicle.cpp: aScale";
+		rLen = 0;
+		rLoc = 11503;
+		rType = 0;
+		vrLen = 2171;
+		vrLoc = 10302;
+	};
+	3230C410084F652100CBB0D9 = {
+		fRef = 32FFF53006E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = "SteerLibrary.h: 473";
+		rLen = 0;
+		rLoc = 17106;
+		rType = 0;
+		vrLen = 2492;
+		vrLoc = 15108;
+	};
+	3230C411084F652100CBB0D9 = {
+		fRef = 3224E4F40844AC1700C13D97;
+		isa = PBXTextBookmark;
+		name = "Path.h: 23";
+		rLen = 132;
+		rLoc = 276;
+		rType = 0;
+		vrLen = 1840;
+		vrLoc = 0;
+	};
+	3230C414084F652100CBB0D9 = {
+		fRef = 32FFF54C06E9CEBD00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "SimpleVehicle.cpp: aScale";
+		rLen = 0;
+		rLoc = 11503;
+		rType = 0;
+		vrLen = 2171;
+		vrLoc = 10302;
+	};
+	3230C429084F6BA000CBB0D9 = {
+		fRef = 32FFF56A06E9CECE00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "false);";
+		rLen = 70;
+		rLoc = 16883;
+		rType = 0;
+		vrLen = 1344;
+		vrLoc = 15987;
+	};
+	3230C42E084F6BA000CBB0D9 = {
+		fRef = 3224E5070844B1B800C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPathwaySegmentRadii.cpp: 175";
+		rLen = 0;
+		rLoc = 5011;
+		rType = 0;
+		vrLen = 1234;
+		vrLoc = 0;
+	};
+	3230C42F084F6BA000CBB0D9 = {
+		fRef = 3224E4AC0844A32F00C13D97;
+		isa = PBXTextBookmark;
+		name = "SegmentedPathway.h: 97";
+		rLen = 0;
+		rLoc = 3113;
+		rType = 0;
+		vrLen = 1839;
+		vrLoc = 2263;
+	};
+	3230C433084F6BA000CBB0D9 = {
+		fRef = 3224E5070844B1B800C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPathwaySegmentRadii.cpp: 175";
+		rLen = 0;
+		rLoc = 5011;
+		rType = 0;
+		vrLen = 1234;
+		vrLoc = 0;
+	};
+	3230C44E085052F700CBB0D9 = {
+		fRef = 32FFF56706E9CECE00E1D8A3;
+		isa = PBXTextBookmark;
+		name = isInsidePath;
+		rLen = 12;
+		rLoc = 90925;
+		rType = 0;
+		vrLen = 1750;
+		vrLoc = 77896;
+	};
+	3230C450085052F700CBB0D9 = {
+		fRef = 3224E59508485F8A00C13D97;
+		isa = PBXTextBookmark;
+		name = "QueryPathAlikeUtilities.h: 116";
+		rLen = 0;
+		rLoc = 3680;
+		rType = 0;
+		vrLen = 1403;
+		vrLoc = 2497;
+	};
+	3230C452085052F700CBB0D9 = {
+		fRef = 32FFF56706E9CECE00E1D8A3;
+		isa = PBXTextBookmark;
+		name = isInsidePath;
+		rLen = 12;
+		rLoc = 90925;
+		rType = 0;
+		vrLen = 1750;
+		vrLoc = 77896;
+	};
+	3230C453085052F700CBB0D9 = {
+		fRef = 3224E4F80844ACF800C13D97;
+		isa = PBXTextBookmark;
+		name = "Vec3 pointOnPathCenterLine( pathway.mapSegmentDistanceToPoint( segmentIndex, segmentDistance ) );";
+		rLen = 110;
+		rLoc = 3038;
+		rType = 0;
+		vrLen = 2615;
+		vrLoc = 1771;
+	};
+	3230C4650850646900CBB0D9 = {
+		fRef = 3224E6600849C27400C13D97;
+		isa = PBXTextBookmark;
+		name = "QueryPathAlikeMappings.h: setPointOnPathCenterLine";
+		rLen = 540;
+		rLoc = 3927;
+		rType = 0;
+		vrLen = 1762;
+		vrLoc = 2784;
+	};
+	3230C4660850646900CBB0D9 = {
+		fRef = 3224E6600849C27400C13D97;
+		isa = PBXTextBookmark;
+		name = "QueryPathAlikeMappings.h: setPointOnPathCenterLine";
+		rLen = 540;
+		rLoc = 3927;
+		rType = 0;
+		vrLen = 1762;
+		vrLoc = 2784;
+	};
+	3230C46B085066DD00CBB0D9 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 1134}}";
+			sepNavSelRange = "{742, 44}";
+			sepNavVisRect = "{{0, 82}, {1019, 579}}";
+		};
+	};
+	3230C4AD0850918700CBB0D9 = {
+		fRef = 3230C46B085066DD00CBB0D9;
+		isa = PBXTextBookmark;
+		name = "template< typename SegmentedPathAlike >";
+		rLen = 44;
+		rLoc = 742;
+		rType = 0;
+		vrLen = 1319;
+		vrLoc = 116;
+	};
+	3230C4AE0850918700CBB0D9 = {
+		fRef = 32FFF53206E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = "Utilities.h: 47";
+		rLen = 0;
+		rLoc = 1890;
+		rType = 0;
+		vrLen = 1562;
+		vrLoc = 5553;
+	};
+	3230C4B00850918700CBB0D9 = {
+		fRef = 32FFF56706E9CECE00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "const float segmentRadius = path->segmentRadius( segmentIndex );";
+		rLen = 88;
+		rLoc = 41701;
+		rType = 0;
+		vrLen = 2076;
+		vrLoc = 38754;
+	};
+	3230C4B10850918700CBB0D9 = {
+		fRef = 3230C46B085066DD00CBB0D9;
+		isa = PBXTextBookmark;
+		name = "#include \"OpenSteer/StandardTypes.h\"";
+		rLen = 37;
+		rLoc = 166;
+		rType = 0;
+		vrLen = 1296;
+		vrLoc = 0;
+	};
+	3230C4B80850918700CBB0D9 = {
+		fRef = 3224E4F70844ACA200C13D97;
+		isa = PBXTextBookmark;
+		name = "virtual bool isValid() const;";
+		rLen = 29;
+		rLoc = 2466;
+		rType = 0;
+		vrLen = 1981;
+		vrLoc = 2138;
+	};
+	3230C4D50850970600CBB0D9 = {
+		fRef = 32FFF56706E9CECE00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "const Vec3 nowOnPath = mapPointToBoundaryPointAndOutside( path, position(), nowOutside );  // path.mapPointToPath (position (), nowOutside);";
+		rLen = 149;
+		rLoc = 71154;
+		rType = 0;
+		vrLen = 2218;
+		vrLoc = 70022;
+	};
+	3230C4E908509F6000CBB0D9 = {
+		fRef = 3224E4FD0844B15200C13D97;
+		isa = PBXTextBookmark;
+		name = "SegmentedPath.cpp: 5";
+		rLen = 0;
+		rLoc = 104;
+		rType = 0;
+		vrLen = 107;
+		vrLoc = 0;
+	};
+	3230C4EB08509F6000CBB0D9 = {
+		fRef = 3224E47A08435DE800C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPathTest.h: testMovePointsCyclicPath";
+		rLen = 0;
+		rLoc = 1661;
+		rType = 0;
+		vrLen = 2124;
+		vrLoc = 183;
+	};
+	3230C4F208509F6000CBB0D9 = {
+		fRef = 3224E4F70844ACA200C13D97;
+		isa = PBXTextBookmark;
+		name = "virtual bool isValid() const;";
+		rLen = 29;
+		rLoc = 2466;
+		rType = 0;
+		vrLen = 2146;
+		vrLoc = 1765;
+	};
+	3230C4F308509F6000CBB0D9 = {
+		fRef = 3224E4F80844ACF800C13D97;
+		isa = PBXTextBookmark;
+		name = "Vec3 pointOnPathCenterLine( pathway.mapSegmentDistanceToPoint( segmentIndex, segmentDistance ) );";
+		rLen = 110;
+		rLoc = 3038;
+		rType = 0;
+		vrLen = 2727;
+		vrLoc = 1652;
+	};
+	3230C51F0850A5E600CBB0D9 = {
+		fRef = 3224E47B08435DE800C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPathTest.cpp: 428";
+		rLen = 0;
+		rLoc = 19295;
+		rType = 0;
+		vrLen = 3466;
+		vrLoc = 17494;
+	};
+	3230C5200850A5E600CBB0D9 = {
+		fRef = 3224E4AC0844A32F00C13D97;
+		isa = PBXTextBookmark;
+		name = "SegmentedPathway.h: 127";
+		rLen = 0;
+		rLoc = 4733;
+		rType = 0;
+		vrLen = 2883;
+		vrLoc = 1998;
+	};
+	3230C5210850A5E600CBB0D9 = {
+		fRef = 3224E4F60844AC8700C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPathwaySingleRadius.h: 76";
+		rLen = 0;
+		rLoc = 3570;
+		rType = 0;
+		vrLen = 2818;
+		vrLoc = 1216;
+	};
+	3230C5220850A5E600CBB0D9 = {
+		fRef = 3224E5050844B1A500C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPathwaySingleRadius.cpp: 268";
+		rLen = 829;
+		rLoc = 6643;
+		rType = 0;
+		vrLen = 2389;
+		vrLoc = 5084;
+	};
+	3230C5230850A5E600CBB0D9 = {
+		fRef = 3224E5070844B1B800C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPathwaySegmentRadii.cpp: 343";
+		rLen = 0;
+		rLoc = 10248;
+		rType = 0;
+		vrLen = 2414;
+		vrLoc = 7854;
+	};
+	3230C5240850A5E600CBB0D9 = {
+		fRef = 3224E4F70844ACA200C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPathwaySegmentRadii.h: 101";
+		rLen = 0;
+		rLoc = 4354;
+		rType = 0;
+		vrLen = 3187;
+		vrLoc = 1179;
+	};
+	3230C5250850A5E600CBB0D9 = {
+		fRef = 3224E4F80844ACF800C13D97;
+		isa = PBXTextBookmark;
+		name = "QueryPathAlike.h: 80";
+		rLen = 0;
+		rLoc = 3474;
+		rType = 0;
+		vrLen = 3134;
+		vrLoc = 4998;
+	};
+	3230C5260850A5E600CBB0D9 = {
+		fRef = 3224E4F20844AB8E00C13D97;
+		isa = PBXTextBookmark;
+		name = "SegmentedPath.h: mapPointToSegmentDistanceAndPointAndTangent";
+		rLen = 414;
+		rLoc = 3866;
+		rType = 0;
+		vrLen = 2641;
+		vrLoc = 1276;
+	};
+	3230C5300850A5E600CBB0D9 = {
+		fRef = 3224E5050844B1A500C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPathwaySingleRadius.cpp: 268";
+		rLen = 829;
+		rLoc = 6643;
+		rType = 0;
+		vrLen = 2389;
+		vrLoc = 5084;
+	};
+	3230C5310850A5E600CBB0D9 = {
+		fRef = 3224E4F70844ACA200C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPathwaySegmentRadii.h: 101";
+		rLen = 0;
+		rLoc = 4354;
+		rType = 0;
+		vrLen = 3187;
+		vrLoc = 1179;
+	};
+	3230C5490850A74C00CBB0D9 = {
+		fRef = 3224E4F80844ACF800C13D97;
+		isa = PBXTextBookmark;
+		name = "mapPointToSegmentDistanceAndPointAndTangentAndRadius( segmentIndex, queryPoint, segmentDistance, pointOnPathCenterLine, tangent, radius );";
+		rLen = 151;
+		rLoc = 3554;
+		rType = 0;
+		vrLen = 1943;
+		vrLoc = 6152;
+	};
+	3230C54A0850A74C00CBB0D9 = {
+		fRef = 3224E4F70844ACA200C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPathwaySegmentRadii.h: 103";
+		rLen = 0;
+		rLoc = 4365;
+		rType = 0;
+		vrLen = 2231;
+		vrLoc = 2283;
+	};
+	3230C54B0850A74C00CBB0D9 = {
+		fRef = 3224E5070844B1B800C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPathwaySegmentRadii.cpp: 345";
+		rLen = 0;
+		rLoc = 10270;
+		rType = 0;
+		vrLen = 1919;
+		vrLoc = 8353;
+	};
+	3230C54C0850A74C00CBB0D9 = {
+		fRef = 3224E5050844B1A500C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPathwaySingleRadius.cpp: 279";
+		rLen = 0;
+		rLoc = 7475;
+		rType = 0;
+		vrLen = 1783;
+		vrLoc = 5694;
+	};
+	3230C54D0850A74C00CBB0D9 = {
+		fRef = 3224E4F60844AC8700C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPathwaySingleRadius.h: 78";
+		rLen = 0;
+		rLoc = 3603;
+		rType = 0;
+		vrLen = 2133;
+		vrLoc = 1602;
+	};
+	3230C54E0850A74C00CBB0D9 = {
+		fRef = 3224E4AC0844A32F00C13D97;
+		isa = PBXTextBookmark;
+		name = "SegmentedPathway.h: 129";
+		rLen = 0;
+		rLoc = 4769;
+		rType = 0;
+		vrLen = 1859;
+		vrLoc = 3035;
+	};
+	3230C54F0850A74C00CBB0D9 = {
+		fRef = 3224E4FD0844B15200C13D97;
+		isa = PBXTextBookmark;
+		name = "#include \"OpenSteer/SegmentedPath.h\"";
+		rLen = 37;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 107;
+		vrLoc = 0;
+	};
+	3230C5500850A74C00CBB0D9 = {
+		fRef = 3224E4F20844AB8E00C13D97;
+		isa = PBXTextBookmark;
+		name = "SegmentedPath.h: 118";
+		rLen = 0;
+		rLoc = 4296;
+		rType = 0;
+		vrLen = 1743;
+		vrLoc = 2657;
+	};
+	3230C5510850A74C00CBB0D9 = {
+		fRef = 3224E4FF0844B16200C13D97;
+		isa = PBXTextBookmark;
+		name = "pointOnPath = tangent * distance + segmentStartPoint;";
+		rLen = 58;
+		rLoc = 15385;
+		rType = 0;
+		vrLen = 1594;
+		vrLoc = 13857;
+	};
+	3230C5520850A74C00CBB0D9 = {
+		fRef = 3224E4F50844AC3B00C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPath.h: swap";
+		rLen = 0;
+		rLoc = 5488;
+		rType = 0;
+		vrLen = 1777;
+		vrLoc = 3888;
+	};
+	3230C5640850A74C00CBB0D9 = {
+		fRef = 3224E4FF0844B16200C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPath.cpp: 460";
+		rLen = 0;
+		rLoc = 15447;
+		rType = 0;
+		vrLen = 1858;
+		vrLoc = 13593;
+	};
+	3230C56C0850A7B300CBB0D9 = {
+		fRef = 3224E4F50844AC3B00C13D97;
+		isa = PBXTextBookmark;
+		name = "PolylineSegmentedPath.h: 122";
+		rLen = 0;
+		rLoc = 5185;
+		rType = 0;
+		vrLen = 2129;
+		vrLoc = 3348;
+	};
+	324386DA07293A2200B6EBA6 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {605, 5628}}";
+			sepNavSelRange = "{2399, 0}";
+			sepNavVisRect = "{{0, 696}, {605, 358}}";
+		};
+	};
+	32462D30083C80E900605D48 = {
+		fRef = 324DA5F6082ABE43000F3779;
+		isa = PBXTextBookmark;
+		name = "Color.h: 114";
+		rLen = 0;
+		rLoc = 3407;
+		rType = 0;
+		vrLen = 1710;
+		vrLoc = 1825;
+	};
+	32462D34083C80E900605D48 = {
+		fRef = 32ECFF160834CC4500E5E444;
+		isa = PBXTextBookmark;
+		name = "Path.h: 92";
+		rLen = 0;
+		rLoc = 3179;
+		rType = 0;
+		vrLen = 2641;
+		vrLoc = 150;
+	};
+	324DA5EE082ABDD8000F3779 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 3598}}";
+			sepNavSelRange = "{1450, 29}";
+			sepNavVisRect = "{{0, 124}, {1019, 579}}";
+		};
+	};
+	324DA5F6082ABE43000F3779 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 2128}}";
+			sepNavSelRange = "{3407, 0}";
+			sepNavVisRect = "{{0, 744}, {1026, 906}}";
+		};
+	};
+	3292F56B0826E49200336B07 = {
+		fRef = 32FFF52906E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = "LocalSpace.h: 129";
+		rLen = 0;
+		rLoc = 5404;
+		rType = 0;
+		vrLen = 991;
+		vrLoc = 4876;
+	};
+	3292F56C0826E49200336B07 = {
+		fRef = 324386DA07293A2200B6EBA6;
+		isa = PBXTextBookmark;
+		name = "Draw.h: 407";
+		rLen = 0;
+		rLoc = 14498;
+		rType = 0;
+		vrLen = 637;
+		vrLoc = 2274;
+	};
+	3292F56D0826E49200336B07 = {
+		fRef = 32FFF53006E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = "SteerLibrary.h: 73";
+		rLen = 0;
+		rLoc = 2570;
+		rType = 0;
+		vrLen = 563;
+		vrLoc = 2388;
+	};
+	3292F5840828D05E00336B07 = {
+		fRef = 32FFF52406E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = velocity;
+		rLen = 8;
+		rLoc = 2356;
+		rType = 0;
+		vrLen = 884;
+		vrLoc = 1966;
+	};
+	3292F5850828D05E00336B07 = {
+		fRef = 84AD12AD070E221100559513;
+		isa = PBXTextBookmark;
+		name = "OpenSteerDemo.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1190;
+		vrLoc = 0;
+	};
+	32C150890765ABE000A8BC25 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {605, 10864}}";
+			sepNavSelRange = "{536, 0}";
+			sepNavVisRect = "{{0, 269}, {605, 389}}";
+		};
+	};
+	32C1508A0765ABE000A8BC25 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {605, 1960}}";
+			sepNavSelRange = "{2087, 0}";
+			sepNavVisRect = "{{0, 1112}, {605, 358}}";
+		};
+	};
+	32ECEC78082F94FA00E5E444 = {
+		fRef = 32FFF52B06E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = "Obstacle.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1765;
+		vrLoc = 0;
+	};
+	32ECEC95082FC63500E5E444 = {
+		fRef = 841E3BFC0736BF4400E3AD2C;
+		isa = PBXTextBookmark;
+		name = "Obstacle.cpp: 211";
+		rLen = 0;
+		rLoc = 8008;
+		rType = 0;
+		vrLen = 1470;
+		vrLoc = 365;
+	};
+	32ECEC96082FC63500E5E444 = {
+		fRef = 32FFF52506E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = Color.h;
+		rLen = 7;
+		rLoc = 2149;
+		rType = 0;
+		vrLen = 1752;
+		vrLoc = 0;
+	};
+	32ECEC98082FC63500E5E444 = {
+		fRef = 32FFF56506E9CECE00E1D8A3;
+		isa = PBXTextBookmark;
+		name = Color;
+		rLen = 5;
+		rLoc = 3565;
+		rType = 0;
+		vrLen = 1019;
+		vrLoc = 2150;
+	};
+	32ECEC9A082FC63500E5E444 = {
+		fRef = 32FFF56606E9CECE00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "LowSpeedTurn.cpp: 46";
+		rLen = 0;
+		rLoc = 1837;
+		rType = 0;
+		vrLen = 969;
+		vrLoc = 1034;
+	};
+	32ECEC9D082FC63500E5E444 = {
+		fRef = 32FFF56906E9CECE00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "OneTurning.cpp: 43";
+		rLen = 0;
+		rLoc = 1778;
+		rType = 0;
+		vrLen = 827;
+		vrLoc = 1334;
+	};
+	32ECECA1082FC63500E5E444 = {
+		fRef = 324DA5F6082ABE43000F3779;
+		isa = PBXTextBookmark;
+		name = "Color.h: 114";
+		rLen = 0;
+		rLoc = 3407;
+		rType = 0;
+		vrLen = 1044;
+		vrLoc = 2915;
+	};
+	32ECECA4082FC63500E5E444 = {
+		fRef = 841E3BFC0736BF4400E3AD2C;
+		isa = PBXTextBookmark;
+		name = "Obstacle.cpp: 211";
+		rLen = 0;
+		rLoc = 8008;
+		rType = 0;
+		vrLen = 1470;
+		vrLoc = 365;
+	};
+	32ECECA5082FC63500E5E444 = {
+		fRef = 32FFF52506E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = Color.h;
+		rLen = 7;
+		rLoc = 2149;
+		rType = 0;
+		vrLen = 1752;
+		vrLoc = 0;
+	};
+	32ECECA6082FC63500E5E444 = {
+		fRef = 84AD12B1070E224000559513;
+		isa = PBXTextBookmark;
+		name = Color;
+		rLen = 5;
+		rLoc = 18637;
+		rType = 0;
+		vrLen = 1245;
+		vrLoc = 17912;
+	};
+	32ECECA7082FC63500E5E444 = {
+		fRef = 32FFF56506E9CECE00E1D8A3;
+		isa = PBXTextBookmark;
+		name = Color;
+		rLen = 5;
+		rLoc = 3565;
+		rType = 0;
+		vrLen = 1019;
+		vrLoc = 2150;
+	};
+	32ECECA8082FC63500E5E444 = {
+		fRef = 32FFF56406E9CECE00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "#include \"OpenSteer/Color.h\"";
+		rLen = 28;
+		rLoc = 1718;
+		rType = 0;
+		vrLen = 897;
+		vrLoc = 1452;
+	};
+	32ECECA9082FC63500E5E444 = {
+		fRef = 32FFF56606E9CECE00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "LowSpeedTurn.cpp: 46";
+		rLen = 0;
+		rLoc = 1837;
+		rType = 0;
+		vrLen = 969;
+		vrLoc = 1034;
+	};
+	32ECECAA082FC63500E5E444 = {
+		fRef = 32FFF56706E9CECE00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "MapDrive.cpp: 58";
+		rLen = 0;
+		rLoc = 3351;
+		rType = 0;
+		vrLen = 821;
+		vrLoc = 2432;
+	};
+	32ECECAB082FC63500E5E444 = {
+		fRef = 32FFF56806E9CECE00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "MultiplePursuit.cpp: 41";
+		rLen = 0;
+		rLoc = 1716;
+		rType = 0;
+		vrLen = 1205;
+		vrLoc = 822;
+	};
+	32ECECAC082FC63500E5E444 = {
+		fRef = 32FFF56906E9CECE00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "OneTurning.cpp: 43";
+		rLen = 0;
+		rLoc = 1778;
+		rType = 0;
+		vrLen = 827;
+		vrLoc = 1334;
+	};
+	32ECECAD082FC63500E5E444 = {
+		fRef = 32FFF56A06E9CECE00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "Pedestrian.cpp: 46";
+		rLen = 0;
+		rLoc = 1908;
+		rType = 0;
+		vrLen = 994;
+		vrLoc = 1674;
+	};
+	32ECECAE082FC63500E5E444 = {
+		fRef = 32FFF56B06E9CECE00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "Soccer.cpp: 46";
+		rLen = 0;
+		rLoc = 2054;
+		rType = 0;
+		vrLen = 1094;
+		vrLoc = 1164;
+	};
+	32ECF063082FC7FB00E5E444 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 672}}";
+			sepNavSelRange = "{1760, 26}";
+			sepNavVisRect = "{{0, 93}, {1019, 579}}";
+		};
+	};
+	32ECF087082FD25A00E5E444 = {
+		fRef = 32FFF52A06E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = "lq.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2218;
+		vrLoc = 0;
+	};
+	32ECF08B082FD25A00E5E444 = {
+		fRef = 32FFF53206E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = "return x0 + ((x1 - x0) * alpha);";
+		rLen = 41;
+		rLoc = 2349;
+		rType = 0;
+		vrLen = 1723;
+		vrLoc = 5638;
+	};
+	32ECF08C082FD25A00E5E444 = {
+		fRef = 32ECF063082FC7FB00E5E444;
+		isa = PBXTextBookmark;
+		name = "UnusedParameter.h: 9";
+		rLen = 0;
+		rLoc = 1805;
+		rType = 0;
+		vrLen = 231;
+		vrLoc = 0;
+	};
+	32ECF093082FD25A00E5E444 = {
+		fRef = 32FFF52A06E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = "lq.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2218;
+		vrLoc = 0;
+	};
+	32ECF094082FD25A00E5E444 = {
+		fRef = 32FFF54806E9CEBD00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "lq.c: lqMapOverAllOutsideObjects";
+		rLen = 161;
+		rLoc = 15302;
+		rType = 0;
+		vrLen = 1383;
+		vrLoc = 13851;
+	};
+	32ECF0980830D9A300E5E444 = {
+		fRef = 32FFF54806E9CEBD00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "lq.c: 640";
+		rLen = 0;
+		rLoc = 22539;
+		rType = 0;
+		vrLen = 1216;
+		vrLoc = 21846;
+	};
+	32ECF09C0830D9A300E5E444 = {
+		fRef = 32FFF54A06E9CEBD00E1D8A3;
+		isa = PBXTextBookmark;
+		name = PolylinePathway;
+		rLen = 15;
+		rLoc = 1939;
+		rType = 0;
+		vrLen = 1119;
+		vrLoc = 1452;
+	};
+	32ECFE1608336C5500E5E444 = {
+		fileEncoding = 4;
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = Pathway.h;
+		path = /Users/bknafla/Projects/OpenSteer/opensteer/include/OpenSteer/Pathway.h;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	32ECFE1708336C6D00E5E444 = {
+		fRef = 32FFF56B06E9CECE00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "Soccer.cpp: 46";
+		rLen = 0;
+		rLoc = 2054;
+		rType = 0;
+		vrLen = 716;
+		vrLoc = 1545;
+	};
+	32ECFE1A08336C6D00E5E444 = {
+		fRef = 84AD12AD070E221100559513;
+		isa = PBXTextBookmark;
+		name = "OpenSteerDemo.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1903;
+		vrLoc = 0;
+	};
+	32ECFE1B08336C6D00E5E444 = {
+		fRef = 32FFF52D06E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = redraw;
+		rLen = 6;
+		rLoc = 3364;
+		rType = 0;
+		vrLen = 1725;
+		vrLoc = 2799;
+	};
+	32ECFE1C08336C6D00E5E444 = {
+		fRef = 32FFF52B06E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = "Obstacle.h: 46";
+		rLen = 0;
+		rLoc = 1837;
+		rType = 0;
+		vrLen = 1385;
+		vrLoc = 1369;
+	};
+	32ECFE1F08336C6D00E5E444 = {
+		fRef = 32FFF52C06E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = PolylinePathway;
+		rLen = 15;
+		rLoc = 3839;
+		rType = 0;
+		vrLen = 718;
+		vrLoc = 3400;
+	};
+	32ECFE2E08336C6D00E5E444 = {
+		fRef = 32FFF52D06E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = redraw;
+		rLen = 6;
+		rLoc = 3364;
+		rType = 0;
+		vrLen = 1725;
+		vrLoc = 2799;
+	};
+	32ECFE4C08336C8C00E5E444 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 1526}}";
+			sepNavSelRange = "{2490, 0}";
+			sepNavVisRect = "{{0, 80}, {1019, 579}}";
+			sepNavWindowFrame = "{{15, -5}, {733, 746}}";
+		};
+	};
+	32ECFE5008336FCF00E5E444 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 906}}";
+			sepNavSelRange = "{1713, 0}";
+			sepNavVisRect = "{{0, 0}, {993, 906}}";
+		};
+	};
+	32ECFE5D083370D400E5E444 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {605, 2870}}";
+			sepNavSelRange = "{5457, 0}";
+			sepNavVisRect = "{{0, 3}, {605, 389}}";
+		};
+	};
+	32ECFE7408337A0B00E5E444 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {605, 966}}";
+			sepNavSelRange = "{2274, 0}";
+			sepNavVisRect = "{{0, 535}, {605, 389}}";
+		};
+	};
+	32ECFE7908337AD900E5E444 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {605, 868}}";
+			sepNavSelRange = "{1482, 0}";
+			sepNavVisRect = "{{0, 464}, {605, 389}}";
+		};
+	};
+	32ECFE91083384BC00E5E444 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 868}}";
+			sepNavSelRange = "{1528, 0}";
+			sepNavVisRect = "{{0, 239}, {1026, 629}}";
+		};
+	};
+	32ECFE9A083386FA00E5E444 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {605, 3836}}";
+			sepNavSelRange = "{3440, 22}";
+			sepNavVisRect = "{{0, 1605}, {605, 389}}";
+		};
+	};
+	32ECFEAA0833893500E5E444 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 1316}}";
+			sepNavSelRange = "{3245, 0}";
+			sepNavVisRect = "{{0, 685}, {1019, 579}}";
+		};
+	};
+	32ECFEAF083389F000E5E444 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 1260}}";
+			sepNavSelRange = "{2268, 51}";
+			sepNavVisRect = "{{0, 681}, {1019, 579}}";
+		};
+	};
+	32ECFF160834CC4500E5E444 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {605, 1456}}";
+			sepNavSelRange = "{1514, 87}";
+			sepNavVisRect = "{{0, 0}, {605, 519}}";
+			sepNavWindowFrame = "{{15, -5}, {733, 746}}";
+		};
+	};
+	32ECFF3E083A0FB200E5E444 = {
+		fRef = 32FFF54B06E9CEBD00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "PlugIn.cpp: 168";
+		rLen = 0;
+		rLoc = 4866;
+		rType = 0;
+		vrLen = 1151;
+		vrLoc = 2857;
+	};
+	32ECFF40083A0FB200E5E444 = {
+		fRef = 32ECF063082FC7FB00E5E444;
+		isa = PBXTextBookmark;
+		name = OPENSTEER_UNUSED_PARAMETER;
+		rLen = 26;
+		rLoc = 1760;
+		rType = 0;
+		vrLen = 1844;
+		vrLoc = 0;
+	};
+	32ECFF41083A0FB200E5E444 = {
+		fRef = 32FFF54E06E9CEBD00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "Vec3.cpp: 45";
+		rLen = 0;
+		rLoc = 2217;
+		rType = 0;
+		vrLen = 2308;
+		vrLoc = 1369;
+	};
+	32ECFF47083A0FB200E5E444 = {
+		fRef = 32FFF56406E9CECE00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "#include \"OpenSteer/Color.h\"";
+		rLen = 28;
+		rLoc = 1718;
+		rType = 0;
+		vrLen = 683;
+		vrLoc = 1786;
+	};
+	32ECFF4A083A0FB200E5E444 = {
+		fRef = 32ECFEAF083389F000E5E444;
+		isa = PBXTextBookmark;
+		name = "Vec3Utilities.cpp: 71";
+		rLen = 0;
+		rLoc = 2555;
+		rType = 0;
+		vrLen = 1195;
+		vrLoc = 1817;
+	};
+	32ECFF4C083A0FB200E5E444 = {
+		fRef = 32ECFE91083384BC00E5E444;
+		isa = PBXTextBookmark;
+		name = "ShrinkToFitStlVector.h: 32";
+		rLen = 0;
+		rLoc = 1528;
+		rType = 0;
+		vrLen = 1267;
+		vrLoc = 877;
+	};
+	32ECFF54083A0FB200E5E444 = {
+		fRef = 32ECFE1608336C5500E5E444;
+		isa = PBXTextBookmark;
+		name = "Pathway.h: 74";
+		rLen = 0;
+		rLoc = 3675;
+		rType = 0;
+		vrLen = 886;
+		vrLoc = 2115;
+	};
+	32ECFF55083A0FB200E5E444 = {
+		fRef = 32ECFE5008336FCF00E5E444;
+		isa = PBXTextBookmark;
+		name = "Pathway.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 24;
+		vrLoc = 0;
+	};
+	32ECFF5B083A0FB200E5E444 = {
+		fRef = 32ECFE5D083370D400E5E444;
+		isa = PBXTextBookmark;
+		name = "PolylinePathway.h: 75";
+		rLen = 0;
+		rLoc = 3301;
+		rType = 0;
+		vrLen = 1241;
+		vrLoc = 3093;
+	};
+	32ECFF5D083A0FB200E5E444 = {
+		fRef = 32ECFE7408337A0B00E5E444;
+		isa = PBXTextBookmark;
+		name = "PathwayUtilities.h: 28";
+		rLen = 0;
+		rLoc = 2274;
+		rType = 0;
+		vrLen = 913;
+		vrLoc = 0;
+	};
+	32ECFF61083A0FB200E5E444 = {
+		fRef = 32FFF54B06E9CEBD00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "PlugIn.cpp: 168";
+		rLen = 0;
+		rLoc = 4866;
+		rType = 0;
+		vrLen = 1151;
+		vrLoc = 2857;
+	};
+	32ECFF65083A0FB200E5E444 = {
+		fRef = 32FFF53306E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = "Vec3.h: 65";
+		rLen = 0;
+		rLoc = 2655;
+		rType = 0;
+		vrLen = 1560;
+		vrLoc = 7090;
+	};
+	32ECFF66083A0FB200E5E444 = {
+		fRef = 32ECFE7908337AD900E5E444;
+		isa = PBXTextBookmark;
+		name = "PathwayUtilities.cpp: 34";
+		rLen = 0;
+		rLoc = 1482;
+		rType = 0;
+		vrLen = 173;
+		vrLoc = 1766;
+	};
+	32ECFF68083A0FB200E5E444 = {
+		fRef = 32ECFE91083384BC00E5E444;
+		isa = PBXTextBookmark;
+		name = "ShrinkToFitStlVector.h: 12";
+		rLen = 0;
+		rLoc = 1827;
+		rType = 0;
+		vrLen = 527;
+		vrLoc = 0;
+	};
+	32ECFF71083A0FB200E5E444 = {
+		fRef = 32ECFEAA0833893500E5E444;
+		isa = PBXTextBookmark;
+		name = "Vec3Utilities.h: 6";
+		rLen = 0;
+		rLoc = 1918;
+		rType = 0;
+		vrLen = 553;
+		vrLoc = 0;
+	};
+	32ECFF74083A0FB200E5E444 = {
+		fRef = 32ECFEAF083389F000E5E444;
+		isa = PBXTextBookmark;
+		name = "Vec3Utilities.cpp: 32";
+		rLen = 0;
+		rLoc = 3016;
+		rType = 0;
+		vrLen = 1478;
+		vrLoc = 0;
+	};
+	32ECFF86083A0FB200E5E444 = {
+		fRef = 32FFF54E06E9CEBD00E1D8A3;
+		isa = PBXTextBookmark;
+		name = "Vec3.cpp: 45";
+		rLen = 0;
+		rLoc = 2217;
+		rType = 0;
+		vrLen = 2308;
+		vrLoc = 1369;
+	};
+	32ECFF8F083A0FB200E5E444 = {
+		fRef = 32ECFE9A083386FA00E5E444;
+		isa = PBXTextBookmark;
+		name = nearestPointOnSegment;
+		rLen = 21;
+		rLoc = 4899;
+		rType = 0;
+		vrLen = 2445;
+		vrLoc = 3291;
+	};
+	32ECFF97083A0FB200E5E444 = {
+		fRef = 32FFF52F06E9CEA700E1D8A3;
+		isa = PBXTextBookmark;
+		name = SteerLibraryMixin;
+		rLen = 17;
+		rLoc = 3711;
+		rType = 0;
+		vrLen = 741;
+		vrLoc = 3262;
+	};
+	32F97647074B489D0023331B = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		cppStopOnCatchEnabled = 0;
+		cppStopOnThrowEnabled = 0;
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		isa = PBXExecutable;
+		libgmallocEnabled = 0;
+		name = OpenSteerDemo;
+		savedGlobals = {
+		};
+		shlibInfoDictList = (
+		);
+		shlibInfoDictList_v2 = (
+			{
+				level = 0;
+				path = /usr/lib/system/libmathCommon.A.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libSystem.B.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libicucore.A.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libauto.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libobjc.A.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libz.1.2.2.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Security.framework/Versions/A/Security;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CFNetwork.framework/Versions/A/CFNetwork;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/WebServicesCore.framework/Versions/A/WebServicesCore;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libbsm.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libcrypto.0.9.7.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreText.framework/Versions/A/CoreText;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libcups.2.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/FindByContent.framework/Versions/A/FindByContent;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libJPEG.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libJP2.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libGIF.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libRaw.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libTIFF.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libPng.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libRadiance.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libmx.A.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/ImageIO;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CarbonSound.framework/Versions/A/CarbonSound;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libiconv.2.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libxml2.2.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/PrivateFrameworks/DesktopServicesPriv.framework/Versions/A/DesktopServicesPriv;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SpeechRecognition.framework/Versions/A/SpeechRecognition;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/AudioUnit.framework/Versions/A/AudioUnit;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libsqlite3.0.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreData.framework/Versions/A/CoreData;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLImage.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/GLUT.framework/Versions/A/GLUT;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/PrivateFrameworks/ZeroLink.framework/Versions/A/ZeroLink;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libgcc_s.1.0.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/usr/lib/libstdc++.6.0.3.dylib";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteerDemo.app/Contents/MacOS/OpenSteerDemo;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/Clock.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/main.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/Vec3.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/Obstacle.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/Color.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/OpenSteerDemo.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/Camera.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/SimpleVehicle.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/PlugIn.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/Boids.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/CaptureTheFlag.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/LowSpeedTurn.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/OneTurning.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/Pedestrian.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/Soccer.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/Draw.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/TerrainRayTest.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/Vec3Utilities.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/Path.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/SegmentedPath.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/PolylineSegmentedPath.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/Pathway.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/SegmentedPathway.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/PolylineSegmentedPathwaySingleRadius.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/PolylineSegmentedPathwaySegmentRadii.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/MultiplePursuit.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLProgrammability.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/OpenGL.framework/Versions/A/Resources/GLEngine.bundle/GLEngine;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Extensions/ATIRadeonGLDriver.bundle/Contents/MacOS/ATIRadeonGLDriver;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLSystem.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/OpenGL.framework/Versions/A/Resources/GLDriver.bundle/GLDriver;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/OpenGL.framework/Versions/A/Resources/GLRendererFloat.bundle/GLRendererFloat;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/OpenGL.framework/Versions/A/Resources/GLRasterARGB8888D32.bundle/GLRasterARGB8888D32;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libCSync.A.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libRIP.A.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /Users/bknafla/Library/InputManagers/BibDeskInputManager/BibDeskInputManager.bundle/Contents/MacOS/BibDeskInputManager;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libCGATS.A.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/ImageCapture.framework/Versions/A/ImageCapture;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SecurityHI.framework/Versions/A/SecurityHI;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Ink.framework/Versions/A/Ink;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Help.framework/Versions/A/Help;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/OpenScripting.framework/Versions/A/OpenScripting;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Print.framework/Versions/A/Print;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HTMLRendering.framework/Versions/A/HTMLRendering;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/NavigationServices.framework/Versions/A/NavigationServices;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CommonPanels.framework/Versions/A/CommonPanels;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Carbon;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/vecLib.framework/Versions/A/vecLib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/QuickTime.framework/Versions/A/QuickTime;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Library/QuickTime/DivX 5.component/Contents/MacOS/DivX 5";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/AGL.framework/Versions/A/AGL;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/QuickTime/QuickTimeComponents.component/Contents/MacOS/QuickTimeComponents;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Components/DictionaryService.component/Contents/MacOS/DictionaryService;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/Users/bknafla/Projects/OpenSteer/opensteer/macosx/build/OpenSteer.build/OpenSteerDemo.build/Objects-normal/ppc/lq.ob";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /Developer/Applications/Xcode.app/Contents/PlugIns/GDBMIDebugging.xcplugin/Contents/Resources/PBGDBIntrospectionSupport.A.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/dyld;
+				whenToLoad = 0;
+			},
+		);
+		sourceDirectories = (
+		);
+	};
+	32F9765B074B48AB0023331B = {
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		isa = PBXSourceControlManager;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	32F9765C074B48AB0023331B = {
+		indexTemplatePath = "";
+		isa = PBXCodeSenseManager;
+	};
+	32FFF52406E9CEA700E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {605, 1498}}";
+			sepNavSelRange = "{2356, 8}";
+			sepNavVisRect = "{{0, 837}, {605, 519}}";
+		};
+	};
+	32FFF52506E9CEA700E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 6300}}";
+			sepNavSelRange = "{2149, 7}";
+			sepNavVisRect = "{{0, 0}, {1026, 515}}";
+		};
+	};
+	32FFF52906E9CEA700E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {605, 5082}}";
+			sepNavSelRange = "{5404, 0}";
+			sepNavVisRect = "{{0, 1862}, {605, 519}}";
+		};
+	};
+	32FFF52A06E9CEA700E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 4536}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {1019, 605}}";
+		};
+	};
+	32FFF52B06E9CEA700E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 4032}}";
+			sepNavSelRange = "{1837, 0}";
+			sepNavVisRect = "{{0, 387}, {1026, 654}}";
+		};
+	};
+	32FFF52C06E9CEA700E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 2506}}";
+			sepNavSelRange = "{3531, 0}";
+			sepNavVisRect = "{{0, 1927}, {1019, 579}}";
+			sepNavWindowFrame = "{{15, -5}, {733, 746}}";
+		};
+	};
+	32FFF52D06E9CEA700E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 2646}}";
+			sepNavSelRange = "{3364, 6}";
+			sepNavVisRect = "{{0, 942}, {1026, 654}}";
+		};
+	};
+	32FFF52F06E9CEA700E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {605, 3542}}";
+			sepNavSelRange = "{3763, 0}";
+			sepNavVisRect = "{{0, 950}, {605, 519}}";
+		};
+	};
+	32FFF53006E9CEA700E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 14938}}";
+			sepNavSelRange = "{17106, 0}";
+			sepNavVisRect = "{{0, 5902}, {993, 906}}";
+			sepNavWindowFrame = "{{15, -5}, {733, 746}}";
+		};
+	};
+	32FFF53206E9CEA700E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 4732}}";
+			sepNavSelRange = "{1890, 0}";
+			sepNavVisRect = "{{0, 2378}, {1019, 579}}";
+		};
+	};
+	32FFF53306E9CEA700E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 5222}}";
+			sepNavSelRange = "{5112, 0}";
+			sepNavVisRect = "{{0, 4643}, {1019, 579}}";
+		};
+	};
+	32FFF54606E9CEBD00E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {858, 4312}}";
+			sepNavSelRange = "{10126, 45}";
+			sepNavVisRect = "{{0, 3822}, {858, 480}}";
+		};
+	};
+	32FFF54706E9CEBD00E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {723, 25844}}";
+			sepNavSelRange = "{49585, 73}";
+			sepNavVisRect = "{{0, 21670}, {723, 327}}";
+			sepNavWindowFrame = "{{234, 0}, {733, 746}}";
+		};
+	};
+	32FFF54806E9CEBD00E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 9982}}";
+			sepNavSelRange = "{22539, 0}";
+			sepNavVisRect = "{{0, 8696}, {1026, 515}}";
+		};
+	};
+	32FFF54906E9CEBD00E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 854}}";
+			sepNavSelRange = "{1980, 18}";
+			sepNavVisRect = "{{0, 126}, {993, 717}}";
+		};
+	};
+	32FFF54A06E9CEBD00E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 4004}}";
+			sepNavSelRange = "{1939, 15}";
+			sepNavVisRect = "{{0, 549}, {993, 906}}";
+			sepNavWindowFrame = "{{191, -5}, {733, 746}}";
+		};
+	};
+	32FFF54B06E9CEBD00E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 2702}}";
+			sepNavSelRange = "{4866, 0}";
+			sepNavVisRect = "{{0, 1283}, {1026, 654}}";
+		};
+	};
+	32FFF54C06E9CEBD00E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 4634}}";
+			sepNavSelRange = "{11503, 0}";
+			sepNavVisRect = "{{0, 3728}, {993, 906}}";
+		};
+	};
+	32FFF54E06E9CEBD00E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 2996}}";
+			sepNavSelRange = "{2217, 0}";
+			sepNavVisRect = "{{0, 2417}, {1019, 579}}";
+		};
+	};
+	32FFF56406E9CECE00E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {737, 11088}}";
+			sepNavSelRange = "{1718, 28}";
+			sepNavVisRect = "{{0, 620}, {737, 351}}";
+			sepNavWindowFrame = "{{15, -5}, {733, 746}}";
+		};
+	};
+	32FFF56506E9CECE00E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 13832}}";
+			sepNavSelRange = "{3565, 5}";
+			sepNavVisRect = "{{0, 616}, {1026, 515}}";
+		};
+	};
+	32FFF56606E9CECE00E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 3360}}";
+			sepNavSelRange = "{1837, 0}";
+			sepNavVisRect = "{{0, 283}, {1026, 515}}";
+		};
+	};
+	32FFF56706E9CECE00E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 42406}}";
+			sepNavSelRange = "{71154, 149}";
+			sepNavVisRect = "{{0, 24498}, {1019, 579}}";
+			sepNavWindowFrame = "{{89, 0}, {733, 746}}";
+		};
+	};
+	32FFF56806E9CECE00E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 3654}}";
+			sepNavSelRange = "{1716, 0}";
+			sepNavVisRect = "{{0, 478}, {993, 906}}";
+		};
+	};
+	32FFF56906E9CECE00E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 2310}}";
+			sepNavSelRange = "{1778, 0}";
+			sepNavVisRect = "{{0, 349}, {1026, 515}}";
+		};
+	};
+	32FFF56A06E9CECE00E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 10864}}";
+			sepNavSelRange = "{16883, 70}";
+			sepNavVisRect = "{{0, 6104}, {1019, 579}}";
+			sepNavWindowFrame = "{{-908, -185}, {733, 746}}";
+		};
+	};
+	32FFF56B06E9CECE00E1D8A3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {662, 5712}}";
+			sepNavSelRange = "{2054, 0}";
+			sepNavVisRect = "{{0, 431}, {662, 395}}";
+		};
+	};
+	841E3BFC0736BF4400E3AD2C = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 4858}}";
+			sepNavSelRange = "{8008, 0}";
+			sepNavVisRect = "{{0, 131}, {1026, 515}}";
+		};
+	};
+	84AD12AD070E221100559513 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 4284}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 3567}, {993, 717}}";
+		};
+	};
+	84AD12B1070E224000559513 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 21238}}";
+			sepNavSelRange = "{18637, 5}";
+			sepNavVisRect = "{{0, 8246}, {1019, 579}}";
+		};
+	};
+	8D1107260486CEB800E47090 = {
+		activeExec = 0;
+		executables = (
+			32F97647074B489D0023331B,
+		);
+	};
+}
