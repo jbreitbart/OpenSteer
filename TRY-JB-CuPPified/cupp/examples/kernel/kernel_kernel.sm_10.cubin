@@ -1,0 +1,13 @@
+architecture {sm_10}
+abiversion   {1}
+modname      {cubin}
+code {
+	name = _Z15global_functioniRi
+	lmem = 0
+	smem = 24
+	reg  = 2
+	bar  = 0
+	bincode {
+		0x1100ea04 0x1100e800 0xd00e0201 0xa0c00781 
+	}
+}

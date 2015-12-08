@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jbreitbart/projekte/opensteer/svn/branches/TRY-JB-CuPPified/src/cuda/kernel_kernel.cu_kernel_kernel_generated.cpp
+

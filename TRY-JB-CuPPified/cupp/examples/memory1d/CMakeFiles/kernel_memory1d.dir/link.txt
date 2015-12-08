@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libkernel_memory1d.a  CMakeFiles/kernel_memory1d.dir/__/__/__/src/cuda/kernel_memory1d.cu_kernel_memory1d_generated.o
+/usr/bin/ranlib ../../../lib/libkernel_memory1d.a

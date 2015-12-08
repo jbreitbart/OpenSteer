@@ -1,0 +1,25 @@
+architecture {sm_13}
+abiversion   {1}
+modname      {cubin}
+code {
+	name = _Z15global_functionRN4cupp7deviceT6vectorINS1_IiEEEE
+	lmem = 0
+	smem = 20
+	reg  = 2
+	bar  = 0
+	const {
+			segname = const
+			segnum  = 1
+			offset  = 0
+			bytes   = 4
+		mem {
+			0x00000008 
+		}
+	}
+	bincode {
+		0x10000805 0x4400c780 0xd00e0205 0x80c00780 
+		0x60080005 0x00000003 0xd00e0205 0x80c00780 
+		0xd00e0201 0x80c00780 0x30010001 0xc4100780 
+		0xd00e0201 0xa0c00781 
+	}
+}

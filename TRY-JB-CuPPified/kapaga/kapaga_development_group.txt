@@ -1,0 +1,7 @@
+Kapaga Development Group
+=========================
+
+The Kapaga project (abbreviation for Kassel Parallel Games) has been started by Prof. Dr. Claudia Leopold and Björn Knafla in 2006 at the Programming Languages / Methodologies Research Group at the University of Kassel, Germany, to study and research the parallelization of computer games.
+
+All source code is/will be published under an open source license.
+

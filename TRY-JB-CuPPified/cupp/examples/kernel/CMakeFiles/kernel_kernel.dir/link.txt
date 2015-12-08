@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libkernel_kernel.a  CMakeFiles/kernel_kernel.dir/__/__/__/src/cuda/kernel_kernel.cu_kernel_kernel_generated.o
+/usr/bin/ranlib ../../../lib/libkernel_kernel.a

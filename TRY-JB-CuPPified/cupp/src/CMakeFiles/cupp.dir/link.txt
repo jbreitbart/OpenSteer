@@ -1,0 +1,1 @@
+/usr/bin/g++  -fPIC -fopenmp  -shared -Wl,-soname,libcupp.so -o ../../lib/libcupp.so CMakeFiles/cupp.dir/device.o -L/usr/local/cuda/lib -L/home/jbreitbart/projekte/opensteer/svn/branches/TRY-JB-CuPPified/lib 
